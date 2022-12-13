@@ -1,0 +1,32 @@
+.footerBar {
+  /* position: absolute; */
+  width: 100%;
+  background: rgb(68, 63, 84);
+  left: 0px;
+  padding-bottom: 40px;
+  text-align: center;
+}
+.footerlogo {
+  margin-top: 80px;
+}
+.footerBar hr {
+  margin-top: 20px;
+  margin-bottom: 20px;
+  border-color: #999999;
+  width: 3.17%;
+}
+
+.footerBar p {
+  text-align: center;
+  font-size: 13px;
+  color: #999999;
+}
+
+@media (max-width: 768px) {
+  .footerBar hr {
+    margin-top: 20px;
+    margin-bottom: 20px;
+    border-color: #999999;
+    width: 9%;
+  }
+}

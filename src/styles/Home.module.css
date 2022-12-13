@@ -1,0 +1,57 @@
+.container {
+  width: 100%;
+  padding: 0;
+}
+
+.fullwidth_container {
+  height: 820px;
+  background: url(/img/homepage/shutterstock_697695823-1.jpg) no-repeat;
+  background-size: 100% auto;
+}
+
+.container_center {
+  padding: 10px 15px;
+}
+
+.pageTitle {
+  padding-top: 250px;
+  text-align: center;
+}
+
+.page_title {
+  color: #ffffff;
+  font-size: 52px;
+  font-family: "Roboto", "Arial", "sans-serif", sans-serif;
+  font-weight: 500;
+  margin-top: 20px;
+}
+
+.slide1_logo {
+  width: 21.21%;
+}
+
+.subtitle {
+  color: #e4e4e4;
+  font-size: 32px;
+  font-family: "Roboto", "Arial", "sans-serif", sans-serif;
+  font-weight: 500;
+  margin-top: 20px;
+}
+
+.ls_layer {
+  text-align: center;
+  top: 845.344px;
+  left: 928.688px;
+  text-align: initial;
+  font-weight: 400;
+  font-style: normal;
+  text-decoration: none;
+  opacity: 1;
+  width: 50.6016px;
+  height: 50.6016px;
+  margin-top: 80px;
+  z-index: auto;
+  padding: 0px;
+  border-width: 0px;
+  border-radius: 0px;
+}
