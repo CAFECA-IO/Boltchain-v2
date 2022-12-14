@@ -1,5 +1,6 @@
 import styles from "../styles/Home.module.css";
 import { useTranslation } from "next-i18next";
+import { serverSideTranslations } from "next-i18next/serverSideTranslations";
 
 export default function Home() {
   const { t } = useTranslation("lang");
@@ -12,7 +13,7 @@ export default function Home() {
             <img
               src="/img/bolt_logo_7.png"
               className={styles.slide1_logo}
-              alt="Boltchain_logo_white"
+              alt="Boltchain_logo"
             />
             <h1 className={styles.page_title}>{t("main.title")}</h1>
             <h1 className={styles.subtitle}>{t("main.description")}</h1>
@@ -29,4 +30,12 @@ export default function Home() {
       </div>
     </div>
   );
+}
+export async function getStaticProps({ locale }: any) {
+  return {
+    props: {
+      ...(await serverSideTranslations(locale, ["lang"])),
+      // Will be passed to the page component as props
+    },
+  };
 }
