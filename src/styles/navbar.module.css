@@ -1,0 +1,197 @@
+.bg_info {
+  background-color: rgba(255, 0, 0, 0) !important;
+  margin-top: 0px;
+  margin-bottom: -86px;
+  padding-left: 50px;
+  padding-right: 95px;
+  position: fixed;
+  width: 100%;
+}
+@media (max-width: 576px) {
+  .bg_info {
+    padding-right: 35px;
+  }
+  .navlogo {
+    width: 130px !important;
+    background-size: 100% auto !important;
+  }
+}
+.headerNavbar {
+  font-family: "Roboto", "Arial", "sans-serif", sans-serif;
+  font-weight: 500;
+  font-size: 15px;
+  color: #fff;
+  text-transform: none;
+  letter-spacing: 0;
+  z-index: 1;
+
+  display: flex;
+  align-items: center;
+
+  overflow: hidden;
+}
+.navlogo {
+  max-height: 40px;
+  margin-top: 7px;
+  margin-bottom: 7px;
+}
+.dropdownItem {
+  color: #a8a8a8 !important;
+
+  background-color: white;
+  border-top: 0px solid;
+  padding: 5px 10px 5px 10px;
+}
+
+.navitem {
+  color: white;
+  border-top: 0px solid;
+  padding: 0px 12px;
+}
+
+.navbar-dark .navbar-nav .nav-link {
+  color: white;
+}
+.nav_single_item {
+  padding: 0px 12px;
+}
+.nav_single_item a:hover {
+  text-decoration: underline;
+}
+.navbarline {
+  height: 12px;
+  border-left: 1px solid;
+  margin-top: 14px;
+}
+.headerNavbar {
+  transition: 0.8s;
+}
+.headerNavbar ul {
+  list-style: none;
+  display: flex;
+  align-items: baseline;
+  margin-left: auto;
+}
+/* .navitem a span {
+    border-top: 0px solid;
+    padding-left: 6px;
+    padding-right: 6px;
+  } */
+.dropdown-toggle::after {
+  border-top: 0px solid;
+}
+#lang-dropdown .dropdown-toggle::after {
+  border-top: 0.3em solid;
+  border-right: 0.3em solid transparent;
+  border-bottom: 0;
+  border-left: 0.3em solid transparent;
+  position: absolute;
+  top: 18px;
+  right: 3px;
+}
+.dropdown:hover .dropdownMenu {
+  max-height: 300px;
+  opacity: 1;
+
+  position: absolute;
+  display: flex;
+  flex-direction: column;
+  background-color: white;
+  border-radius: 4px;
+  padding: 5px;
+}
+.dropdown a:hover {
+  color: #a8a8a8;
+}
+.dropdown {
+  -webkit-transition: all 0.3s;
+  -moz-transition: all 0.3s;
+  -ms-transition: all 0.3s;
+  -o-transition: all 0.3s;
+  transition: all 0.3s;
+}
+.dropdown .dropdownMenu {
+  max-height: 0;
+  display: none;
+  /* display: block; */
+  overflow: hidden;
+  opacity: 0;
+}
+.headerNavbarWhite {
+  background-color: white !important;
+}
+.headerNavbarWhite a,
+.headerNavbarWhite .navbar-nav .nav-link {
+  color: #a8a8a8 !important;
+}
+.headerNavbarWhite a,
+.headerNavbarWhite .navbar-nav .nav-link {
+  color: #a8a8a8 !important;
+}
+.headerNavbarWhite .navlogo {
+  /*background-image: url("./../../public/img/bolt_logo_6.png") !important;*/
+  width: 125px !important;
+  height: 30px !important;
+}
+@media (max-width: 992px) {
+  .headerNavbar {
+    background-color: #1c2336 !important;
+  }
+  .headerNavbar .navlogo {
+    width: 125px !important;
+    height: 30px !important;
+  }
+  .headerNavbarWhite .navlogo {
+    background-image: url("./../../public/img/bolt_logo_5.png") !important;
+  }
+  .navbarline {
+    display: none;
+  }
+  .nav_single_item {
+    padding: 5px 0px 15px 5px;
+    color: white;
+    border-top: 0px solid;
+  }
+  .wpb_wrapper {
+    padding: 0px 10px;
+  }
+
+  .burgerbtn {
+    opacity: 1;
+  }
+}
+.bolck1-title {
+  margin-top: 170px;
+  margin-bottom: 10px;
+}
+.th {
+  font-weight: normal;
+}
+.html {
+  scroll-behavior: smooth;
+}
+
+.burgerbtn {
+  width: 56px;
+  height: 40px;
+  display: block;
+  background-color: inherit;
+  border: 0.5px solid white;
+  border-radius: 5px;
+}
+.burgerbtn::before {
+  content: "";
+  position: absolute;
+  width: 26px;
+  height: 3px;
+  margin-left: 15px;
+  margin-top: 18px;
+  border-radius: 1px;
+  background-color: white;
+  box-shadow: 0px 10px 0px white, 0px -10px 0px white;
+  opacity: 70%;
+}
+
+.menu_control {
+  display: none;
+}
