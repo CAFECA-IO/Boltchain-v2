@@ -115,12 +115,12 @@
   float: left;
   background-color: white;
 }
-.fullwidth-container {
+.fullwidth_container {
   height: auto;
   background: url(/img/2019/03/shutterstock_697695823-1.jpg) no-repeat;
   background-size: auto auto !important;
 }
-.container-center {
+.container_center {
   padding: 150px 15px;
 }
 .container {
@@ -260,7 +260,7 @@
     height: 30px !important;
   }
   .headerNavbarWhite .navlogo {
-    background-image: url("./../../public/img/bolt_logo_5.png") !important;
+    background-image: url("./../../public/img/2019/05/bolt_logo_5.png") !important;
   }
   #nav-bar {
     display: none;
