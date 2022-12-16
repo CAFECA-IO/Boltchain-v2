@@ -2,7 +2,7 @@ import styles from "../styles/index.module.css";
 import myStyles from "../styles/notfound.module.css";
 
 import { serverSideTranslations } from "next-i18next/serverSideTranslations";
-import { Button } from "react-bootstrap";
+import { Button } from "reactstrap";
 
 function NotFoundPage() {
   return (

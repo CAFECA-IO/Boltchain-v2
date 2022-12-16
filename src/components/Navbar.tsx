@@ -4,7 +4,14 @@ import myStyles from "../styles/navbar.module.css";
 import React, { useState, useEffect } from "react";
 import { useTranslation } from "next-i18next";
 
-import { Navbar, Nav, NavbarBrand, Dropdown, Collapse } from "react-bootstrap";
+import {
+  Navbar,
+  Nav,
+  NavbarBrand,
+  Dropdown,
+  Collapse,
+  NavbarToggler,
+} from "reactstrap";
 import Image from "next/image";
 
 function MainNavbar() {
@@ -12,7 +19,7 @@ function MainNavbar() {
 
   return (
     <div>
-      <Nav
+      <Navbar
         id="header-nav-bar"
         className={`navbar navbar-dark bg-info navbar-expand-lg ${myStyles.headerNavbar} ${myStyles.bg_info}`}
       >
@@ -30,104 +37,172 @@ function MainNavbar() {
           />
         </NavbarBrand>
 
-        <Navbar.Toggle className="navbar-toggler">
+        <NavbarToggler className="navbar-toggler">
           <span className="navbar-toggler-icon"></span>
-        </Navbar.Toggle>
+        </NavbarToggler>
 
-        <Collapse className={`navbar-collapse collapse ${myStyles.invisible}`}>
+        <Collapse
+          id="nav-collapse"
+          className={`navbar-collapse collapse ${myStyles.invisible}`}
+        >
           <Navbar className="navbar-nav ml-auto">
-            <Nav.Item
-              className={`nav-item nav-item nav-single-item ${myStyles.navitem}`}
+            <li
+              className={`nav-item b-nav-dropdown dropdown nav-item ${myStyles.navitem} ${myStyles.dropdown}`}
+              id="__BVID__11"
             >
-              <Dropdown
-                className={`nav-dropdown dropdown nav-item ${myStyles.dropdown}`}
+              <a
+                className="nav-link dropdown-toggle"
+                id="__BVID__11__BV_button_"
+                //target="_self"
+                //href="#"
               >
-                <Dropdown.Toggle
-                  className={`nav-link dropdown-toggle ${myStyles.dropdown_toggle}`}
-                >
-                  {t("nav.about")}
-                </Dropdown.Toggle>
-                <Dropdown.Menu className="dropdown-menu dropdown-menu-right">
-                  <Dropdown.Item className="dropdown-item">
+                <span>{t("nav.about")}</span>
+              </a>
+              <ul
+                //tabindex="-1"
+                className="dropdown-menu dropdown-menu-right"
+              >
+                <li>
+                  <a href="/#about" className="dropdown-item" target="_self">
                     {t("nav.aboutLink1")}
-                  </Dropdown.Item>
-                  <Dropdown.Item className="dropdown-item">
+                  </a>
+                </li>
+                <li>
+                  <a href="/#why" className="dropdown-item" target="_self">
                     {t("nav.aboutLink2")}
-                  </Dropdown.Item>
-                  <Dropdown.Item className="dropdown-item">
+                  </a>
+                </li>
+                <li>
+                  <a href="/#case" className="dropdown-item" target="_self">
                     {t("nav.aboutLink3")}
-                  </Dropdown.Item>
-                  <Dropdown.Item className="dropdown-item">
+                  </a>
+                </li>
+                <li>
+                  <a href="/#news" className="dropdown-item" target="_self">
                     {t("nav.aboutLink5")}
-                  </Dropdown.Item>
-                </Dropdown.Menu>
-              </Dropdown>
-            </Nav.Item>
-            <Nav.Item
-              className={`nav-item nav-item nav-single-item ${myStyles.navitem}`}
+                  </a>
+                </li>
+                {/*                 <li role="presentation">
+                  <a
+                    href="/#team"
+                    class="dropdown-item"
+                    role="menuitem"
+                    target="_self"
+                  >
+                    團隊介紹
+                  </a>
+                </li> */}
+                <li>
+                  <a href="/#contact" className="dropdown-item" target="_self">
+                    {t("nav.aboutLink7")}
+                  </a>
+                </li>
+              </ul>
+            </li>
+            <li
+              className="nav-item b-nav-dropdown dropdown nav-item"
+              id="__BVID__31"
             >
-              <Dropdown
-                className={`nav-dropdown dropdown nav-item ${myStyles.dropdown}`}
+              <a
+                target="_self"
+                href="#"
+                className="nav-link dropdown-toggle"
+                id="__BVID__31__BV_button_"
               >
-                <Dropdown.Toggle
-                  className={`nav-link dropdown-toggle ${myStyles.dropdown_toggle}`}
-                >
-                  {t("nav.solution")}
-                </Dropdown.Toggle>
-                <Dropdown.Menu className="dropdown-menu dropdown-menu-right">
-                  <Dropdown.Item className="dropdown-item">
+                <span>{t("nav.solution")}</span>
+              </a>
+              <ul
+                //tabindex="-1"
+                className="dropdown-menu dropdown-menu-right"
+              >
+                <li>
+                  <a
+                    href="/bolt-trust"
+                    className="dropdown-item"
+                    target="_self"
+                  >
                     {t("nav.trust")}
-                  </Dropdown.Item>
-                  <Dropdown.Item className="dropdown-item">
+                  </a>
+                </li>
+                <li>
+                  <a
+                    href="/bolt-currency"
+                    className="dropdown-item"
+                    target="_self"
+                  >
                     {t("nav.currency")}
-                  </Dropdown.Item>
-                </Dropdown.Menu>
-              </Dropdown>
-            </Nav.Item>
+                  </a>
+                </li>
+              </ul>
+            </li>
 
-            <Nav.Item
+            <li
               className={`nav-item nav-item nav-single-item ${myStyles.navitem} ${myStyles.nav_single_item}`}
             >
-              <Nav.Link
-                href="/technology"
+              <div
+                //target="_self"
+                //href="#"
                 className={`nav-link ${myStyles.navlink}`}
               >
-                {t("nav.technology")}
-              </Nav.Link>
-            </Nav.Item>
-            <Nav.Item
+                <a href="/technology">{t("nav.technology")}</a>
+              </div>
+            </li>
+            <li
               className={`nav-item nav-item nav-single-item ${myStyles.navitem} ${myStyles.nav_single_item}`}
             >
-              <Nav.Link href="/FAQ" className={`nav-link ${myStyles.navlink}`}>
-                {t("nav.faq")}
-              </Nav.Link>
-            </Nav.Item>
+              <div
+                //target="_self"
+                //href="#"
+                className={`nav-link ${myStyles.navlink}`}
+              >
+                <div>
+                  <a href="/FAQ">{t("nav.faq")}</a>
+                </div>
+              </div>
+            </li>
 
             <div id="nav-bar" className={myStyles.navbarline}></div>
-
-            <Nav.Item
-              id="lang_dropdown"
-              className={`nav-item nav-item nav-single-item ${myStyles.navitem}`}
+            <li
+              id="lang-dropdown"
+              className="nav-item b-nav-dropdown dropdown nav-item"
             >
-              <Dropdown
-                className={`nav-dropdown dropdown nav-item ${myStyles.dropdown}`}
+              <a
+                id="lang-dropdown__BV_button_"
+                target="_self"
+                href="#"
+                className="nav-link dropdown-toggle"
               >
-                <Dropdown.Toggle
-                  className={`nav-link dropdown-toggle ${myStyles.dropdown_toggle}`}
-                >
-                  繁中
-                </Dropdown.Toggle>
-                <Dropdown.Menu className="dropdown-menu dropdown-menu-right">
-                  <Dropdown.Item className="dropdown-item">繁中</Dropdown.Item>
-                  <Dropdown.Item className="dropdown-item">
+                <span>繁中</span>
+              </a>
+              <ul
+                //tabindex="-1"
+                className="dropdown-menu dropdown-menu-right"
+              >
+                <li>
+                  <a
+                    //value="繁中"
+                    target="_self"
+                    href="#"
+                    className="dropdown-item"
+                  >
+                    繁中
+                  </a>
+                </li>
+                <li>
+                  <a
+                    //value="繁中"
+                    target="_self"
+                    href="#"
+                    className="dropdown-item"
+                  >
                     English
-                  </Dropdown.Item>
-                </Dropdown.Menu>
-              </Dropdown>
-            </Nav.Item>
+                  </a>
+                </li>
+              </ul>
+            </li>
           </Navbar>
         </Collapse>
-      </Nav>
+      </Navbar>
     </div>
   );
 }
