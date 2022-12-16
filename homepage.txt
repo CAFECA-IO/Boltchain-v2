@@ -1,0 +1,767 @@
+  <div data-v-1a609ef6="" id="case" name="case" data-section-title="Use Cases" class="page_content section_page-1564">
+    <div data-v-1a609ef6="" class="container-fluid" style="background-size: cover; background-repeat: repeat; background-color: rgba(0, 0, 0, 0); background-image: url(&quot;/img/2018/09/app_bg-3.jpg&quot;); background-attachment: scroll;">
+      <div data-v-1a609ef6="" data-rtl="false" data-row-effect-mobile-disable="true" data-img-parallax-mobile-disable="true" class="vc_row wpb_row vc_row-fluid ult-vc-hide-row vc_row-has-fill" style="position: relative;">
+        <div data-v-1a609ef6="" class="wpb_column vc_column_container vc_col-sm-12 vc_hidden-sm vc_hidden-xs">
+          <div data-v-1a609ef6="" class="vc_column-inner ">
+            <div data-v-1a609ef6="" style="height: 120px;"></div>
+            <div data-v-1a609ef6="" data-ultimate-target=".uvc-heading.ultimate-heading-84245df9c02b0d9a0 h1" data-responsive-json-new="{&quot;font-size&quot;:&quot;desktop:42px;&quot;,&quot;line-height&quot;:&quot;&quot;}" class="uvc-main-heading ult-responsive text-center">
+              <h1 data-v-1a609ef6="" style="font-weight: normal; color: rgb(255, 255, 255);">Use Cases</h1>
+            </div>
+            <div data-v-1a609ef6="" data-ultimate-target=".uvc-heading.ultimate-heading-84245df9c02b0d9a0 .uvc-sub-heading " data-responsive-json-new="{&quot;font-size&quot;:&quot;&quot;,&quot;line-height&quot;:&quot;&quot;}" class="uvc-sub-heading ult-responsive" style="font-weight: normal;">
+              <p data-v-1a609ef6=""></p>
+              <p data-v-1a609ef6="" style="text-align: center; margin-top: -15px; margin-bottom: 80px; color: rgb(173, 176, 184);">__</p>
+              <p data-v-1a609ef6=""></p>
+            </div>
+            <div data-v-1a609ef6="" class="wpb_wrapper">
+              <div data-v-1a609ef6="" class="container">
+                <div data-v-1a609ef6="" class="row">
+                  <div data-v-1a609ef6="" class="col-lg-6">
+                    <div data-v-1a609ef6="" class="vc_column-inner ">
+                      <div data-v-1a609ef6="" class="wpb_wrapper">
+                        <div data-v-1a609ef6="" class="wpb_single_image wpb_content_element vc_align_left">
+                          <figure data-v-1a609ef6="" class="wpb_wrapper vc_figure">
+                            <div data-v-1a609ef6="" class="vc_single_image-wrapper   vc_box_border_grey text-center">
+                              <img data-v-1a609ef6="" width="550" src="/img/2019/07/bolttrust_3.png" id="img1" alt="" class="vc_single_image-img attachment-full">
+                            </div>
+                          </figure>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                  <div data-v-1a609ef6="" class="col-lg-6">
+                    <div data-v-1a609ef6="" class="vc_column-inner ">
+                      <div data-v-1a609ef6="" class="wpb_wrapper">
+                        <h2 data-v-1a609ef6="" class="vc_custom_heading" style="font-size: 32px; color: rgb(255, 255, 255); text-align: left; margin-top: 40px; margin-bottom: 10px;">Product with Traceability</h2>
+                        <div data-v-1a609ef6="" class="wpb_text_column wpb_content_element ">
+                          <div data-v-1a609ef6="" class="wpb_wrapper">
+                            <p data-v-1a609ef6="" style="line-height: 1.5; color: rgb(255, 255, 255);">The products which recorded on the blockchain will have a certificate page to ensure that the information is protected. The deep traceability service can also provide consumers with detailed production and sales history information.。 <br>
+                              <br> In the process of product production and sales, the author key was used to control the identity of the writer, which could reduce supply chain deception and ensure that brand owners can effectively track the flow of products. <br>
+                              <br>
+                            </p>
+                          </div>
+                        </div>
+                        <div data-v-1a609ef6="" style="height: 14px;"></div>
+                        <a data-v-1a609ef6="" id="submit" target="_self" href="/bolt-trust" class="btn btn-primary rounded-pill" style="padding: 8px 19px; background-color: rgb(0, 53, 91); border: 1px solid transparent; color: rgb(255, 255, 255);">For detail</a>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+                <div data-v-1a609ef6="" class="vc_separator wpb_content_element vc_separator_align_center vc_sep_width_100 vc_sep_pos_align_center vc_separator_no_text">
+                  <span data-v-1a609ef6="" class="vc_sep_holder vc_sep_holder_l">
+                    <span data-v-1a609ef6="" class="vc_sep_line" style="border-color: rgb(73, 73, 73);"></span>
+                  </span>
+                </div>
+                <div data-v-1a609ef6="" style="height: 40px;"></div>
+                <div data-v-1a609ef6="" class="row">
+                  <div data-v-1a609ef6="" class="col-lg-6">
+                    <div data-v-1a609ef6="" class="vc_column-inner ">
+                      <div data-v-1a609ef6="" class="wpb_wrapper">
+                        <h2 data-v-1a609ef6="" class="vc_custom_heading" style="font-size: 32px; color: rgb(255, 255, 255); text-align: left; margin: 10px 0px;">Data on Chain - TATM</h2>
+                        <div data-v-1a609ef6="" class="wpb_text_column wpb_content_element ">
+                          <div data-v-1a609ef6="" class="wpb_wrapper">
+                            <p data-v-1a609ef6="" style="line-height: 2; color: rgb(255, 255, 255);">TATM is a digital currency vending machine launched by Global Token Limited. In order to ensure the security of the transaction records and not be falsified by a single entity, Boltchain's data on chain service (Bolt Trust) was used to record each transaction through its cross-chain channel agreement. Through the Boltchain's hybrid-chain evidence, each piece of evidence is simultaneously written into Ethereum and Bitcoin, so that the transaction record is guaranteed by global consensus and can meet the post-audit needs.</p>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                  <div data-v-1a609ef6="" class="col-lg-6">
+                    <div data-v-1a609ef6="" class="vc_column-inner ">
+                      <div data-v-1a609ef6="" class="wpb_wrapper">
+                        <div data-v-1a609ef6="" class="wpb_single_image wpb_content_element vc_align_left">
+                          <figure data-v-1a609ef6="" class="wpb_wrapper vc_figure">
+                            <div data-v-1a609ef6="" class="vc_single_image-wrapper   vc_box_border_grey">
+                              <img data-v-1a609ef6="" width="550" src="/img/2019/05/tatm.png" alt="" id="img2" sizes="(max-width: 550px) 100vw, 550px" class="vc_single_image-img attachment-full">
+                            </div>
+                          </figure>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+                <div data-v-1a609ef6="" class="vc_separator wpb_content_element vc_separator_align_center vc_sep_width_100 vc_sep_pos_align_center vc_separator_no_text">
+                  <span data-v-1a609ef6="" class="vc_sep_holder vc_sep_holder_l">
+                    <span data-v-1a609ef6="" class="vc_sep_line" style="border-color: rgb(73, 73, 73);"></span>
+                  </span>
+                </div>
+                <div data-v-1a609ef6="" style="height: 40px;"></div>
+                <div data-v-1a609ef6="" class="row">
+                  <div data-v-1a609ef6="" class="col-lg-6">
+                    <div data-v-1a609ef6="" class="vc_column-inner ">
+                      <div data-v-1a609ef6="" class="wpb_wrapper">
+                        <div data-v-1a609ef6="" class="wpb_single_image wpb_content_element vc_align_left">
+                          <figure data-v-1a609ef6="" class="wpb_wrapper vc_figure">
+                            <div data-v-1a609ef6="" class="vc_single_image-wrapper   vc_box_border_grey">
+                              <img data-v-1a609ef6="" width="550" src="/img/2019/03/pingpay_02-1.png" alt="" id="img3" sizes="(max-width: 550px) 100vw, 550px" class="vc_single_image-img attachment-full">
+                            </div>
+                          </figure>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                  <div data-v-1a609ef6="" class="col-lg-6">
+                    <div data-v-1a609ef6="" class="vc_column-inner ">
+                      <div data-v-1a609ef6="" class="wpb_wrapper">
+                        <h2 data-v-1a609ef6="" class="vc_custom_heading" style="font-size: 32px; color: rgb(255, 255, 255); text-align: left; margin: 10px 0px;">Digital payment - PingPay</h2>
+                        <div data-v-1a609ef6="" class="wpb_text_column wpb_content_element ">
+                          <div data-v-1a609ef6="" class="wpb_wrapper">
+                            <p data-v-1a609ef6="" style="line-height: 2; color: rgb(255, 255, 255);">PingPay is a micro-payment wallet based on Boltchain, which can show Boltchain's three characteristics of "real-time transactions, zero fees, and global consensus as the basis of trust". In terms of product positioning, PingPay is a payment function module in providing customer blockchain solutions, which can be customized according to customer needs.</p>
+                          </div>
+                        </div>
+                        <div data-v-1a609ef6="" style="height: 14px;"></div>
+                        <div data-v-1a609ef6="" class="vc_btn3-container vc_btn3-inline vc_custom_1552371038759" style="float: left;">
+                          <link data-v-1a609ef6="" rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+                          <i data-v-1a609ef6="" class="fa fa-apple" style="padding-left: 20px; position: absolute; padding-top: 32px; color: white;"></i>
+                          <a data-v-1a609ef6="" id="submit" rel="noopener" target="_blank" href="https://itunes.apple.com/us/app/pingpay/id1436669171?mt=8" class="btn btn-primary rounded-pill" style="padding: 8px 19px 8px 45px; background-color: rgb(0, 53, 91); border: 1px solid transparent; color: rgb(255, 255, 255);"> AppStore Download </a>
+                        </div>
+                        <div data-v-1a609ef6="" class="vc_btn3-container vc_btn3-inline" style="float: left; margin-left: 20px;">
+                          <i data-v-1a609ef6="" class="fa fa-android" style="padding-left: 20px; position: absolute; padding-top: 32px; color: white;"></i>
+                          <a data-v-1a609ef6="" id="submit" rel="noopener" target="_blank" href="https://play.google.com/store/apps/details?id=com.isuncloud.pingpaywallet" class="btn btn-primary rounded-pill" style="padding: 8px 19px 8px 45px; background-color: rgb(0, 53, 91); border: 1px solid transparent; color: rgb(255, 255, 255);"> Google Play Downalod </a>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+                <div data-v-1a609ef6="" class="vc_separator wpb_content_element vc_separator_align_center vc_sep_width_100 vc_sep_pos_align_center vc_separator_no_text">
+                  <span data-v-1a609ef6="" class="vc_sep_holder vc_sep_holder_l">
+                    <span data-v-1a609ef6="" class="vc_sep_line" style="border-color: rgb(73, 73, 73);"></span>
+                  </span>
+                </div>
+                <div data-v-1a609ef6="" class="row">
+                  <div data-v-1a609ef6="" class="col-lg-6">
+                    <div data-v-1a609ef6="" class="vc_column-inner ">
+                      <div data-v-1a609ef6="" class="wpb_wrapper">
+                        <div data-v-1a609ef6="" style="height: 40px;"></div>
+                        <h2 data-v-1a609ef6="" class="vc_custom_heading" style="font-size: 32px; color: rgb(255, 255, 255); text-align: left; margin: 10px 0px;">Incentive Marketing - Rock Me</h2>
+                        <div data-v-1a609ef6="" class="wpb_text_column wpb_content_element ">
+                          <div data-v-1a609ef6="" class="wpb_wrapper">
+                            <p data-v-1a609ef6="" style="line-height: 2; color: rgb(255, 255, 255);">RockMe is an advertising system that incentivizes users with digital currencies. <br> For advertisers, small amounts and high-frequency digital currency can be distributed immediately as a reward for marketing activities. Users can use the rewards for online and offline merchants in exchange for goods and services. </p>
+                          </div>
+                        </div>
+                        <div data-v-1a609ef6="" style="height: 14px;"></div>
+                        <div data-v-1a609ef6="" class="vc_btn3-container vc_btn3-inline vc_custom_1552371038759" style="float: left;">
+                          <i data-v-1a609ef6="" class="fa fa-apple" style="padding-left: 20px; position: absolute; padding-top: 32px; color: white;"></i>
+                          <a data-v-1a609ef6="" id="submit" rel="noopener" target="_blank" href="https://itunes.apple.com/tw/app/rockme-%E5%85%A8%E6%96%B0%E6%B6%88%E8%B2%BB%E9%AB%94%E9%A9%97%E5%84%AA%E6%83%A0%E5%B9%B3%E5%8F%B0/id1450221445?mt=8" class="btn btn-primary rounded-pill" style="padding: 8px 19px 8px 45px; background-color: rgb(0, 53, 91); border: 1px solid transparent; color: rgb(255, 255, 255);"> AppStore Download </a>
+                        </div>
+                        <div data-v-1a609ef6="" class="vc_btn3-container vc_btn3-inline" style="float: left; margin-left: 20px;">
+                          <i data-v-1a609ef6="" class="fa fa-android" style="padding-left: 20px; position: absolute; padding-top: 32px; color: white;"></i>
+                          <a data-v-1a609ef6="" id="submit" rel="noopener" target="_blank" href="https://play.google.com/store/apps/details?id=com.isuncloud.rockme" class="btn btn-primary rounded-pill" style="padding: 8px 19px 8px 45px; background-color: rgb(0, 53, 91); border: 1px solid transparent; color: rgb(255, 255, 255);"> Google Play Downalod </a>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                  <div data-v-1a609ef6="" class="col-lg-6">
+                    <div data-v-1a609ef6="" class="vc_column-inner ">
+                      <div data-v-1a609ef6="" class="wpb_wrapper">
+                        <div data-v-1a609ef6="" class="wpb_single_image wpb_content_element vc_align_left">
+                          <figure data-v-1a609ef6="" class="wpb_wrapper vc_figure">
+                            <div data-v-1a609ef6="" class="vc_single_image-wrapper   vc_box_border_grey">
+                              <img data-v-1a609ef6="" width="550" src="/img/2019/03/rockme_2-1.png" alt="" id="img4" sizes="(max-width: 550px) 100vw, 550px" class="vc_single_image-img attachment-full">
+                            </div>
+                          </figure>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+                <div data-v-1a609ef6="" class="vc_separator wpb_content_element vc_separator_align_center vc_sep_width_100 vc_sep_pos_align_center vc_separator_no_text">
+                  <span data-v-1a609ef6="" class="vc_sep_holder vc_sep_holder_l">
+                    <span data-v-1a609ef6="" class="vc_sep_line" style="border-color: rgb(73, 73, 73);"></span>
+                  </span>
+                </div>
+                <div data-v-1a609ef6="" style="height: 40px;"></div>
+                <div data-v-1a609ef6="" class="row">
+                  <div data-v-1a609ef6="" class="col-lg-6">
+                    <div data-v-1a609ef6="" class="vc_column-inner ">
+                      <div data-v-1a609ef6="" class="wpb_wrapper">
+                        <div data-v-1a609ef6="" class="wpb_single_image wpb_content_element vc_align_left">
+                          <figure data-v-1a609ef6="" class="wpb_wrapper vc_figure">
+                            <div data-v-1a609ef6="" class="vc_single_image-wrapper   vc_box_border_grey">
+                              <img data-v-1a609ef6="" width="550" src="/img/2019/05/bolt_02-2.png" alt="" id="img5" class="vc_single_image-img attachment-full">
+                            </div>
+                          </figure>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                  <div data-v-1a609ef6="" class="col-lg-6">
+                    <div data-v-1a609ef6="" class="vc_column-inner ">
+                      <div data-v-1a609ef6="" class="wpb_wrapper">
+                        <h2 data-v-1a609ef6="" class="vc_custom_heading" style="font-size: 32px; color: rgb(255, 255, 255); text-align: left; margin: 10px 0px;">Tokenization - Fund trading platform</h2>
+                        <div data-v-1a609ef6="" class="wpb_text_column wpb_content_element ">
+                          <div data-v-1a609ef6="" class="wpb_wrapper">
+                            <p data-v-1a609ef6="" style="line-height: 2; color: rgb(255, 255, 255);">The AI wealth management and fund investment platform uses Boltchain's Currency function to do funds tokenization. Bolt Currency can easily perform instantaneous payment through the boost of Ledger technology, and record all the client transaction process in the blockchain, help fintech platform to build trust with customers, and also meet regulatory regulatory requirements.</p>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+                <div data-v-1a609ef6="" style="height: 120px;"></div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+  <div data-v-1a609ef6="" id="news" name="news" data-section-title="News" class="page_content section_page-577">
+    <div data-v-1a609ef6="" class="container">
+      <p data-v-1a609ef6=""></p>
+      <div data-v-1a609ef6="" class="vc_row wpb_row vc_row-fluid">
+        <div data-v-1a609ef6="" class="wpb_column vc_column_container vc_col-sm-12">
+          <div data-v-1a609ef6="" class="vc_column-inner ">
+            <div data-v-1a609ef6="" class="wpb_wrapper">
+              <div data-v-1a609ef6="" data-animate="infinite No Animation" data-animation-delay="0" data-animation-duration="" data-animation-iteration="infinite" class="ult-animation  ult-no-mobile ">
+                <div data-v-1a609ef6="" id="ultimate-heading-84245df9c02b0d9a0" data-hspacer="no_spacer" data-halign="center" class="uvc-heading ult-adjust-bottom-margin ultimate-heading-84245df9c02b0d9a0 uvc-2543  animated infinite No Animation" style="opacity: 1; animation-delay: 0s; animation-iteration-count: infinite; text-align: center;">
+                  <div data-v-1a609ef6="" style="height: 120px;"></div>
+                  <div data-v-1a609ef6="" data-ultimate-target=".uvc-heading.ultimate-heading-84245df9c02b0d9a0 h1" data-responsive-json-new="{&quot;font-size&quot;:&quot;desktop:42px;&quot;,&quot;line-height&quot;:&quot;&quot;}" class="uvc-main-heading ult-responsive">
+                    <h1 data-v-1a609ef6="" style="font-weight: normal; color: rgb(6, 110, 183);">News</h1>
+                  </div>
+                  <div data-v-1a609ef6="" data-ultimate-target=".uvc-heading.ultimate-heading-84245df9c02b0d9a0 .uvc-sub-heading " data-responsive-json-new="{&quot;font-size&quot;:&quot;&quot;,&quot;line-height&quot;:&quot;&quot;}" class="uvc-sub-heading ult-responsive" style="font-weight: normal;">
+                    <p data-v-1a609ef6=""></p>
+                    <p data-v-1a609ef6="" style="text-align: center; margin-top: -15px; margin-bottom: 80px; color: rgb(173, 176, 184);">__</p>
+                    <p data-v-1a609ef6=""></p>
+                  </div>
+                </div>
+                <div data-v-1a609ef6="" data-id="5df9c02b0d9c1" data-height="80" data-height-mobile="20" data-height-tab="" data-height-tab-portrait="" data-height-mobile-landscape="30" class="ult-spacer spacer-5df9c02b0d9c1 animated infinite No Animation" style="opacity: 1; animation-delay: 0s; animation-iteration-count: infinite; clear: both; display: block;"></div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div data-v-1a609ef6="" class="container">
+        <div data-v-1a609ef6="" class="row">
+          <div data-v-1a609ef6="" class="col-lg-4">
+            <div data-v-1a609ef6="" class="vc_column-inner ">
+              <div data-v-1a609ef6="" class="wpb_wrapper">
+                <div data-v-1a609ef6="" class="wpb_single_image wpb_content_element vc_align_left">
+                  <figure data-v-1a609ef6="" class="wpb_wrapper vc_figure">
+                    <a data-v-1a609ef6="" href="https://medium.com/boltchain/%E4%BB%80%E9%BA%BC%E6%98%AF%E9%96%83%E9%9B%BB%E9%8F%88-boltchain-77244024bbef" target="_blank" class="vc_single_image-wrapper   vc_box_border_grey">
+                      <img data-v-1a609ef6="" width="360" height="270" src="/img/2019/05/news_05-1.jpg" alt="" sizes="(max-width: 480px) 100vw, 480px" class="vc_single_image-img attachment-full">
+                    </a>
+                  </figure>
+                </div>
+                <div data-v-1a609ef6="" data-id="5df9c02b0dfa8" data-height="10" data-height-mobile="10" data-height-tab="10" data-height-tab-portrait="" data-height-mobile-landscape="" class="ult-spacer spacer-5df9c02b0dfa8" style="clear: both; display: block;"></div>
+                <div data-v-1a609ef6="" class="wpb_text_column wpb_content_element ">
+                  <div data-v-1a609ef6="" class="wpb_wrapper">
+                    <p data-v-1a609ef6="">
+                      <span data-v-1a609ef6="" style="color: rgb(128, 128, 128); font-size: 12px;">20 DEC 2019</span>
+                    </p>
+                  </div>
+                </div>
+                <div data-v-1a609ef6="" data-id="5df9c02b0e023" data-height="10" data-height-mobile="10" data-height-tab="10" data-height-tab-portrait="" data-height-mobile-landscape="" class="ult-spacer spacer-5df9c02b0e023" style="clear: both; display: block;"></div>
+                <div data-v-1a609ef6="" class="wpb_text_column wpb_content_element ">
+                  <div data-v-1a609ef6="" class="wpb_wrapper">
+                    <p data-v-1a609ef6="">
+                      <strong data-v-1a609ef6="">
+                        <a data-v-1a609ef6="" href="https://medium.com/boltchain/%E4%BB%80%E9%BA%BC%E6%98%AF%E9%96%83%E9%9B%BB%E9%8F%88-boltchain-77244024bbef" target="_blank" rel="noopener">
+                          <span data-v-1a609ef6="" style="color: rgb(0, 0, 0); font-size: 18px;">What is "Boltchain 閃電鏈"？</span>
+                        </a>
+                      </strong>
+                    </p>
+                  </div>
+                </div>
+                <div data-v-1a609ef6="" data-id="5df9c02b0e093" data-height="20" data-height-mobile="20" data-height-tab="20" data-height-tab-portrait="" data-height-mobile-landscape="" class="ult-spacer spacer-5df9c02b0e093" style="clear: both; display: block;"></div>
+              </div>
+            </div>
+          </div>
+          <div data-v-1a609ef6="" class="col-lg-4 vc_hidden-sm vc_hidden-xs">
+            <div data-v-1a609ef6="" class="vc_column-inner ">
+              <div data-v-1a609ef6="" class="wpb_wrapper">
+                <div data-v-1a609ef6="" class="wpb_single_image wpb_content_element vc_align_left">
+                  <figure data-v-1a609ef6="" class="wpb_wrapper vc_figure">
+                    <a data-v-1a609ef6="" href="https://medium.com/tideisun/boltchain-and-its-pioneering-role-in-decentralizing-the-global-business-9a7465634455" target="_blank" class="vc_single_image-wrapper   vc_box_border_grey">
+                      <img data-v-1a609ef6="" width="360" height="270" src="/img/2019/08/news_08-1.jpg" alt="" sizes="(max-width: 480px) 100vw, 480px" class="vc_single_image-img attachment-full">
+                    </a>
+                  </figure>
+                </div>
+                <div data-v-1a609ef6="" data-id="5df9c02b0e4a4" data-height="10" data-height-mobile="10" data-height-tab="10" data-height-tab-portrait="" data-height-mobile-landscape="" class="ult-spacer spacer-5df9c02b0e4a4" style="clear: both; display: block;"></div>
+                <div data-v-1a609ef6="" class="wpb_text_column wpb_content_element ">
+                  <div data-v-1a609ef6="" class="wpb_wrapper">
+                    <p data-v-1a609ef6="">
+                      <span data-v-1a609ef6="" style="color: rgb(128, 128, 128); font-size: 12px;">23 AUG 2019</span>
+                    </p>
+                  </div>
+                </div>
+                <div data-v-1a609ef6="" data-id="5df9c02b0e51f" data-height="10" data-height-mobile="10" data-height-tab="10" data-height-tab-portrait="" data-height-mobile-landscape="" class="ult-spacer spacer-5df9c02b0e51f" style="clear: both; display: block;"></div>
+                <div data-v-1a609ef6="" class="wpb_text_column wpb_content_element ">
+                  <div data-v-1a609ef6="" class="wpb_wrapper">
+                    <p data-v-1a609ef6="">
+                      <strong data-v-1a609ef6="">
+                        <a data-v-1a609ef6="" href="https://medium.com/tideisun/boltchain-and-its-pioneering-role-in-decentralizing-the-global-business-9a7465634455" target="_blank" rel="noopener">
+                          <span data-v-1a609ef6="" style="color: rgb(0, 0, 0); font-size: 18px;">Boltchain and Its Pioneering Role in Decentralizing the Global Business</span>
+                        </a>
+                      </strong>
+                    </p>
+                  </div>
+                </div>
+                <div data-v-1a609ef6="" data-id="5df9c02b0e5a7" data-height="20" data-height-mobile="20" data-height-tab="20" data-height-tab-portrait="" data-height-mobile-landscape="" class="ult-spacer spacer-5df9c02b0e5a7" style="clear: both; display: block;"></div>
+              </div>
+            </div>
+          </div>
+          <div data-v-1a609ef6="" class="col-lg-4">
+            <div data-v-1a609ef6="" class="vc_column-inner ">
+              <div data-v-1a609ef6="" class="wpb_wrapper">
+                <div data-v-1a609ef6="" class="wpb_single_image wpb_content_element vc_align_left">
+                  <figure data-v-1a609ef6="" class="wpb_wrapper vc_figure">
+                    <a data-v-1a609ef6="" href="https://suntv.io/2019/03/25/%E7%B6%AD%E6%B8%AF%E5%8D%80%E5%A1%8A%E9%8F%88%E4%BE%86%E5%8F%B0%E8%88%89%E8%BE%A6%E6%8A%95%E8%B3%87%E6%B2%99%E9%BE%8D-%E7%9B%B8%E4%B8%AD%E6%B3%B0%E5%BE%B7%E9%99%BD%E5%85%89%E9%9B%86%E5%9C%98bolt/?fbclid=IwAR0WytR-FGdWLfyOodlHFMF3KI5SPmbfyUSFmfvUgwo9bzNTsndkPf1JLCw" target="_blank" class="vc_single_image-wrapper   vc_box_border_grey">
+                      <img data-v-1a609ef6="" width="360" height="270" src="/img/2019/05/news_04-1.jpg" alt="" sizes="(max-width: 480px) 100vw, 480px" class="vc_single_image-img attachment-full">
+                    </a>
+                  </figure>
+                </div>
+                <div data-v-1a609ef6="" data-id="5df9c02b0e9d3" data-height="10" data-height-mobile="10" data-height-tab="10" data-height-tab-portrait="" data-height-mobile-landscape="" class="ult-spacer spacer-5df9c02b0e9d3" style="clear: both; display: block;"></div>
+                <div data-v-1a609ef6="" class="wpb_text_column wpb_content_element ">
+                  <div data-v-1a609ef6="" class="wpb_wrapper">
+                    <p data-v-1a609ef6="">
+                      <span data-v-1a609ef6="" style="color: rgb(128, 128, 128); font-size: 12px;">25 MAR 2019</span>
+                    </p>
+                  </div>
+                </div>
+                <div data-v-1a609ef6="" data-id="5df9c02b0ea56" data-height="10" data-height-mobile="10" data-height-tab="10" data-height-tab-portrait="" data-height-mobile-landscape="" class="ult-spacer spacer-5df9c02b0ea56" style="clear: both; display: block;"></div>
+                <div data-v-1a609ef6="" class="wpb_text_column wpb_content_element ">
+                  <div data-v-1a609ef6="" class="wpb_wrapper">
+                    <p data-v-1a609ef6="">
+                      <strong data-v-1a609ef6="">
+                        <a data-v-1a609ef6="" href="https://suntv.io/2019/03/25/%E7%B6%AD%E6%B8%AF%E5%8D%80%E5%A1%8A%E9%8F%88%E4%BE%86%E5%8F%B0%E8%88%89%E8%BE%A6%E6%8A%95%E8%B3%87%E6%B2%99%E9%BE%8D-%E7%9B%B8%E4%B8%AD%E6%B3%B0%E5%BE%B7%E9%99%BD%E5%85%89%E9%9B%86%E5%9C%98bolt/?fbclid=IwAR0WytR-FGdWLfyOodlHFMF3KI5SPmbfyUSFmfvUgwo9bzNTsndkPf1JLCw" target="_blank" rel="noopener">
+                          <span data-v-1a609ef6="" style="color: rgb(0, 0, 0); font-size: 18px;">維港區塊鏈來台舉辦投資沙龍，高度評價泰德陽光集團 Boltchain 技術</span>
+                        </a>
+                      </strong>
+                    </p>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div data-v-1a609ef6="" data-bottom-top="top: 100%;" data-top-bottom="top: 0%;" class="vc_parallax-inner skrollable skrollable-before" style="height: 0%; top: 100%;"></div>
+        </div>
+        <div data-v-1a609ef6="" class="row">
+          <div data-v-1a609ef6="" class="col-lg-4 vc_hidden-sm vc_hidden-xs">
+            <div data-v-1a609ef6="" class="vc_column-inner ">
+              <div data-v-1a609ef6="" class="wpb_wrapper">
+                <div data-v-1a609ef6="" class="wpb_single_image wpb_content_element vc_align_left">
+                  <figure data-v-1a609ef6="" class="wpb_wrapper vc_figure">
+                    <a data-v-1a609ef6="" href="https://www.indosatu.net/video-news/watch/6R3Nfq0NBSE/%E5%8D%B3%E6%99%82%E5%BD%B1%E9%9F%B3-%E5%8D%80%E5%A1%8A%E9%8F%88%E5%8D%B3%E6%99%82%E6%94%AF%E4%BB%98%E7%B3%BB%E7%B5%B1-%E8%99%9F%E7%A8%B1%E5%81%9A%E5%88%B0%E7%A7%92%E6%94%AF%E7%A7%92%E4%BB%98/" target="_blank" class="vc_single_image-wrapper   vc_box_border_grey">
+                      <img data-v-1a609ef6="" width="360" height="270" src="/img/2019/05/news_03-1.jpg" alt="" sizes="(max-width: 480px) 100vw, 480px" class="vc_single_image-img attachment-full">
+                    </a>
+                  </figure>
+                </div>
+                <div data-v-1a609ef6="" data-id="5df9c02b0efc1" data-height="10" data-height-mobile="10" data-height-tab="10" data-height-tab-portrait="" data-height-mobile-landscape="" class="ult-spacer spacer-5df9c02b0efc1" style="clear: both; display: block;"></div>
+                <div data-v-1a609ef6="" class="wpb_text_column wpb_content_element ">
+                  <div data-v-1a609ef6="" class="wpb_wrapper">
+                    <p data-v-1a609ef6="">
+                      <span data-v-1a609ef6="" style="color: rgb(128, 128, 128); font-size: 12px;">07 DEC 2018</span>
+                    </p>
+                  </div>
+                </div>
+                <div data-v-1a609ef6="" data-id="5df9c02b0f06c" data-height="10" data-height-mobile="10" data-height-tab="10" data-height-tab-portrait="" data-height-mobile-landscape="" class="ult-spacer spacer-5df9c02b0f06c" style="clear: both; display: block;"></div>
+                <div data-v-1a609ef6="" class="wpb_text_column wpb_content_element ">
+                  <div data-v-1a609ef6="" class="wpb_wrapper">
+                    <p data-v-1a609ef6="">
+                      <strong data-v-1a609ef6="">
+                        <a data-v-1a609ef6="" href="https://www.indosatu.net/video-news/watch/6R3Nfq0NBSE/%E5%8D%B3%E6%99%82%E5%BD%B1%E9%9F%B3-%E5%8D%80%E5%A1%8A%E9%8F%88%E5%8D%B3%E6%99%82%E6%94%AF%E4%BB%98%E7%B3%BB%E7%B5%B1-%E8%99%9F%E7%A8%B1%E5%81%9A%E5%88%B0%E7%A7%92%E6%94%AF%E7%A7%92%E4%BB%98/" target="_blank" rel="noopener">
+                          <span data-v-1a609ef6="" style="color: rgb(0, 0, 0); font-size: 18px;">區塊鏈即時支付系統 號稱做到秒支秒付</span>
+                        </a>
+                      </strong>
+                    </p>
+                  </div>
+                </div>
+                <div data-v-1a609ef6="" data-id="5df9c02b0f0d8" data-height="20" data-height-mobile="20" data-height-tab="20" data-height-tab-portrait="" data-height-mobile-landscape="" class="ult-spacer spacer-5df9c02b0f0d8" style="clear: both; display: block;"></div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+  <div data-v-1a609ef6="" style="height: 120px;"></div>
+  <div data-v-1a609ef6="" id="team" name="team" data-section-title="Our Team" class="page_content section_page-1520">
+    <div data-v-1a609ef6="" class="container-fluid" style="background: rgb(33, 33, 33);">
+      <div data-v-1a609ef6="" data-rtl="false" data-row-effect-mobile-disable="true" class="vc_row wpb_row vc_row-fluid ult-vc-hide-row vc_row-has-fill" style="position: relative;">
+        <div data-v-1a609ef6="" class="wpb_column vc_column_container vc_col-sm-12">
+          <div data-v-1a609ef6="" class="vc_column-inner ">
+            <div data-v-1a609ef6="" class="wpb_wrapper">
+              <div data-v-1a609ef6="" style="height: 120px;"></div>
+              <div data-v-1a609ef6="" id="ultimate-heading-89455df9defae0596" data-hspacer="no_spacer" data-halign="center" class="uvc-heading ult-adjust-bottom-margin ultimate-heading-89455df9defae0596 uvc-1466 " style="text-align: center;">
+                <div data-v-1a609ef6="" data-ultimate-target=".uvc-heading.ultimate-heading-89455df9defae0596 h1" data-responsive-json-new="{&quot;font-size&quot;:&quot;desktop:42px;&quot;,&quot;line-height&quot;:&quot;&quot;}" class="uvc-main-heading ult-responsive">
+                  <h1 data-v-1a609ef6="" style="font-weight: normal; color: rgb(255, 255, 255);">Our Team</h1>
+                </div>
+                <div data-v-1a609ef6="" data-ultimate-target=".uvc-heading.ultimate-heading-84245df9c02b0d9a0 .uvc-sub-heading " data-responsive-json-new="{&quot;font-size&quot;:&quot;&quot;,&quot;line-height&quot;:&quot;&quot;}" class="uvc-sub-heading ult-responsive" style="font-weight: normal;">
+                  <p data-v-1a609ef6=""></p>
+                  <p data-v-1a609ef6="" style="text-align: center; margin-top: -15px; margin-bottom: 80px; color: rgb(173, 176, 184);">__</p>
+                  <p data-v-1a609ef6=""></p>
+                </div>
+              </div>
+              <div data-v-1a609ef6="" class="container">
+                <div data-v-1a609ef6="" class="row">
+                  <div data-v-1a609ef6="" class="col-lg-3">
+                    <div data-v-1a609ef6="" class="vc_column-inner vc_custom_1566377879884">
+                      <div data-v-1a609ef6="" class="wpb_wrapper">
+                        <div data-v-1a609ef6="" class="wpb_single_image wpb_content_element vc_align_center">
+                          <figure data-v-1a609ef6="" class="wpb_wrapper vc_figure">
+                            <div data-v-1a609ef6="" class="vc_single_image-wrapper   vc_box_border_grey text-center">
+                              <img data-v-1a609ef6="" width="242.5" height="242.5" src="/img/2019/08/luphia.png" alt="" class="vc_single_image-img attachment-full">
+                            </div>
+                          </figure>
+                        </div>
+                        <div data-v-1a609ef6="" data-id="5df9defae13dd" data-height="20" data-height-mobile="20" data-height-tab="20" data-height-tab-portrait="" data-height-mobile-landscape="" class="ult-spacer spacer-5df9defae13dd" style="clear: both; display: block;"></div>
+                        <div data-v-1a609ef6="" id="ultimate-heading-8045df9defae140c" data-hspacer="no_spacer" data-halign="center" class="uvc-heading ult-adjust-bottom-margin ultimate-heading-8045df9defae140c uvc-2522 " style="text-align: center;">
+                          <div data-v-1a609ef6="" class="uvc-heading-spacer no_spacer"></div>
+                          <div data-v-1a609ef6="" data-ultimate-target=".uvc-heading.ultimate-heading-8045df9defae140c h2" data-responsive-json-new="{&quot;font-size&quot;:&quot;desktop:18px;&quot;,&quot;line-height&quot;:&quot;&quot;}" class="team-header">
+                            <h2 data-v-1a609ef6="" style="font-weight: bold; color: rgb(255, 255, 255);">Luphia Chang</h2>
+                          </div>
+                        </div>
+                        <div data-v-1a609ef6="" data-id="5df9defae1427" data-height="5" data-height-mobile="5" data-height-tab="5" data-height-tab-portrait="" data-height-mobile-landscape="" class="ult-spacer spacer-5df9defae1427" style="clear: both; display: block;"></div>
+                        <div data-v-1a609ef6="" class="wpb_text_column wpb_content_element ">
+                          <div data-v-1a609ef6="" class="wpb_wrapper">
+                            <p data-v-1a609ef6="" class="p1" style="text-align: center; color: rgb(255, 255, 255); font-size: 13px;">Chief System Architect</p>
+                          </div>
+                        </div>
+                        <div data-v-1a609ef6="" data-id="5df9defae14a9" data-height="20" data-height-mobile="20" data-height-tab="20" data-height-tab-portrait="" data-height-mobile-landscape="" class="ult-spacer spacer-5df9defae14a9" style="clear: both; display: block;"></div>
+                        <div data-v-1a609ef6="" class="wpb_text_column wpb_content_element ">
+                          <div data-v-1a609ef6="" class="wpb_wrapper">
+                            <p data-v-1a609ef6="">
+                              <span data-v-1a609ef6="" style="color: rgb(255, 255, 255); font-size: 14px; text-align: center; letter-spacing: 1px;">Over 10 years of experience in distributed computing systems. He has been planned for large-scale software computing platform architecture for the higher education system of Oman, the cloud computing system of the China Software Park, and the Taiwan Industrial Foundation Project.</span>
+                            </p>
+                          </div>
+                        </div>
+                        <div data-v-1a609ef6="" style="height: 40px;"></div>
+                      </div>
+                    </div>
+                  </div>
+                  <div data-v-1a609ef6="" class="col-lg-3">
+                    <div data-v-1a609ef6="" class="vc_column-inner vc_custom_1566377887760">
+                      <div data-v-1a609ef6="" class="wpb_wrapper">
+                        <div data-v-1a609ef6="" class="wpb_single_image wpb_content_element vc_align_center">
+                          <figure data-v-1a609ef6="" class="wpb_wrapper vc_figure">
+                            <div data-v-1a609ef6="" class="vc_single_image-wrapper   vc_box_border_grey text-center">
+                              <img data-v-1a609ef6="" width="242.5" height="242.5" src="/img/2019/08/felix.png" alt="" class="vc_single_image-img attachment-full">
+                            </div>
+                          </figure>
+                        </div>
+                        <div data-v-1a609ef6="" data-id="5df9defae1938" data-height="20" data-height-mobile="20" data-height-tab="20" data-height-tab-portrait="" data-height-mobile-landscape="" class="ult-spacer spacer-5df9defae1938" style="clear: both; display: block;"></div>
+                        <div data-v-1a609ef6="" id="ultimate-heading-40295df9defae1958" data-hspacer="no_spacer" data-halign="center" class="uvc-heading ult-adjust-bottom-margin ultimate-heading-40295df9defae1958 uvc-1900 " style="text-align: center;">
+                          <div data-v-1a609ef6="" class="uvc-heading-spacer no_spacer"></div>
+                          <div data-v-1a609ef6="" data-ultimate-target=".uvc-heading.ultimate-heading-40295df9defae1958 h2" data-responsive-json-new="{&quot;font-size&quot;:&quot;desktop:18px;&quot;,&quot;line-height&quot;:&quot;&quot;}" class="team-header">
+                            <h2 data-v-1a609ef6="" style="font-weight: bold; color: rgb(255, 255, 255);">Felix Tang</h2>
+                          </div>
+                        </div>
+                        <div data-v-1a609ef6="" data-id="5df9defae1973" data-height="5" data-height-mobile="5" data-height-tab="5" data-height-tab-portrait="" data-height-mobile-landscape="" class="ult-spacer spacer-5df9defae1973" style="clear: both; display: block;"></div>
+                        <div data-v-1a609ef6="" class="wpb_text_column wpb_content_element ">
+                          <div data-v-1a609ef6="" class="wpb_wrapper">
+                            <p data-v-1a609ef6="" class="p1" style="text-align: center; color: rgb(255, 255, 255); font-size: 13px;">Sr. Product Manager</p>
+                          </div>
+                        </div>
+                        <div data-v-1a609ef6="" data-id="5df9defae1a14" data-height="20" data-height-mobile="20" data-height-tab="20" data-height-tab-portrait="" data-height-mobile-landscape="" class="ult-spacer spacer-5df9defae1a14" style="clear: both; display: block;"></div>
+                        <div data-v-1a609ef6="" class="wpb_text_column wpb_content_element ">
+                          <div data-v-1a609ef6="" class="wpb_wrapper">
+                            <p data-v-1a609ef6="">
+                              <span data-v-1a609ef6="" style="color: rgb(255, 255, 255); font-size: 14px; text-align: center;">Bachelor of Engineering Management from Taiwan Tsing-hua University. Specializing in market analysis and enterprise service design. With 8 years of product management experience, has been responsible for product planning and project management in the world’s top 100 companies and Internet startups.</span>
+                            </p>
+                          </div>
+                        </div>
+                        <div data-v-1a609ef6="" style="height: 40px;"></div>
+                      </div>
+                    </div>
+                  </div>
+                  <div data-v-1a609ef6="" class="col-lg-3">
+                    <div data-v-1a609ef6="" class="vc_column-inner vc_custom_1566377894509">
+                      <div data-v-1a609ef6="" class="wpb_wrapper">
+                        <div data-v-1a609ef6="" class="wpb_single_image wpb_content_element vc_align_center">
+                          <figure data-v-1a609ef6="" class="wpb_wrapper vc_figure">
+                            <div data-v-1a609ef6="" class="vc_single_image-wrapper   vc_box_border_grey text-center">
+                              <img data-v-1a609ef6="" width="242.5" height="242.5" src="/img/2019/08/kurt.png" alt="" class="vc_single_image-img attachment-full">
+                            </div>
+                          </figure>
+                        </div>
+                        <div data-v-1a609ef6="" data-id="5df9defae2352" data-height="20" data-height-mobile="20" data-height-tab="20" data-height-tab-portrait="" data-height-mobile-landscape="" class="ult-spacer spacer-5df9defae2352" style="clear: both; display: block;"></div>
+                        <div data-v-1a609ef6="" id="ultimate-heading-99905df9defae2373" data-hspacer="no_spacer" data-halign="center" class="uvc-heading ult-adjust-bottom-margin ultimate-heading-99905df9defae2373 uvc-9536 " style="text-align: center;">
+                          <div data-v-1a609ef6="" class="uvc-heading-spacer no_spacer"></div>
+                          <div data-v-1a609ef6="" data-ultimate-target=".uvc-heading.ultimate-heading-99905df9defae2373 h2" data-responsive-json-new="{&quot;font-size&quot;:&quot;desktop:18px;&quot;,&quot;line-height&quot;:&quot;&quot;}" class="team-header">
+                            <h2 data-v-1a609ef6="" style="font-weight: bold; color: rgb(255, 255, 255);">Kurt Pan</h2>
+                          </div>
+                        </div>
+                        <div data-v-1a609ef6="" data-id="5df9defae238d" data-height="5" data-height-mobile="5" data-height-tab="5" data-height-tab-portrait="" data-height-mobile-landscape="" class="ult-spacer spacer-5df9defae238d" style="clear: both; display: block;"></div>
+                        <div data-v-1a609ef6="" class="wpb_text_column wpb_content_element ">
+                          <div data-v-1a609ef6="" class="wpb_wrapper">
+                            <p data-v-1a609ef6="" class="p1" style="text-align: center; color: rgb(255, 255, 255); font-size: 13px;">Sr. UI Designer</p>
+                          </div>
+                        </div>
+                        <div data-v-1a609ef6="" data-id="5df9defae241b" data-height="20" data-height-mobile="20" data-height-tab="20" data-height-tab-portrait="" data-height-mobile-landscape="" class="ult-spacer spacer-5df9defae241b" style="clear: both; display: block;"></div>
+                        <div data-v-1a609ef6="" class="wpb_text_column wpb_content_element ">
+                          <div data-v-1a609ef6="" class="wpb_wrapper">
+                            <p data-v-1a609ef6="">
+                              <span data-v-1a609ef6="" style="color: rgb(255, 255, 255); font-size: 14px; text-align: center;">He has worked for the world's largest advertising communication group WPP, and has more than 10 years of design experience. He has participated in many large-scale design cases and is currently responsible for leading Boltchain UI/UX design.</span>
+                            </p>
+                          </div>
+                        </div>
+                        <div data-v-1a609ef6="" style="height: 40px;"></div>
+                      </div>
+                    </div>
+                  </div>
+                  <div data-v-1a609ef6="" class="col-lg-3">
+                    <div data-v-1a609ef6="" class="vc_column-inner vc_custom_1566377903577">
+                      <div data-v-1a609ef6="" class="wpb_wrapper">
+                        <div data-v-1a609ef6="" class="wpb_single_image wpb_content_element vc_align_center">
+                          <figure data-v-1a609ef6="" class="wpb_wrapper vc_figure">
+                            <div data-v-1a609ef6="" class="vc_single_image-wrapper   vc_box_border_grey text-center">
+                              <img data-v-1a609ef6="" width="242.5" height="242.5" src="/img/2019/08/wayne.png" alt="" class="vc_single_image-img attachment-full">
+                            </div>
+                          </figure>
+                        </div>
+                        <div data-v-1a609ef6="" data-id="5df9defae3fb2" data-height="20" data-height-mobile="20" data-height-tab="20" data-height-tab-portrait="" data-height-mobile-landscape="" class="ult-spacer spacer-5df9defae3fb2" style="clear: both; display: block;"></div>
+                        <div data-v-1a609ef6="" id="ultimate-heading-12405df9defae3fe7" data-hspacer="no_spacer" data-halign="center" class="uvc-heading ult-adjust-bottom-margin ultimate-heading-12405df9defae3fe7 uvc-897 " style="text-align: center;">
+                          <div data-v-1a609ef6="" class="uvc-heading-spacer no_spacer"></div>
+                          <div data-v-1a609ef6="" data-ultimate-target=".uvc-heading.ultimate-heading-12405df9defae3fe7 h2" data-responsive-json-new="{&quot;font-size&quot;:&quot;desktop:18px;&quot;,&quot;line-height&quot;:&quot;&quot;}" class="team-header">
+                            <h2 data-v-1a609ef6="" style="font-weight: bold; color: rgb(255, 255, 255);">Wayne Li</h2>
+                          </div>
+                        </div>
+                        <div data-v-1a609ef6="" data-id="5df9defae4002" data-height="5" data-height-mobile="5" data-height-tab="5" data-height-tab-portrait="" data-height-mobile-landscape="" class="ult-spacer spacer-5df9defae4002" style="clear: both; display: block;"></div>
+                        <div data-v-1a609ef6="" class="wpb_text_column wpb_content_element ">
+                          <div data-v-1a609ef6="" class="wpb_wrapper">
+                            <p data-v-1a609ef6="" class="p1" style="text-align: center; color: rgb(255, 255, 255); font-size: 13px;">Back-end Engineer</p>
+                          </div>
+                        </div>
+                        <div data-v-1a609ef6="" data-id="5df9defae409c" data-height="20" data-height-mobile="20" data-height-tab="20" data-height-tab-portrait="" data-height-mobile-landscape="" class="ult-spacer spacer-5df9defae409c" style="clear: both; display: block;"></div>
+                        <div data-v-1a609ef6="" class="wpb_text_column wpb_content_element ">
+                          <div data-v-1a609ef6="" class="wpb_wrapper">
+                            <p data-v-1a609ef6="">
+                              <span data-v-1a609ef6="" style="color: rgb(255, 255, 255); font-size: 14px; text-align: center;">With 3 years of back-end development experience, he has worked for a well-known input method company in Taiwan, developing natural input methods with C # and C ++. Currently responsible for API development of Boltchain platform services.</span>
+                            </p>
+                          </div>
+                        </div>
+                        <div data-v-1a609ef6="" style="height: 40px;"></div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+                <div data-v-1a609ef6="" style="height: 80px;"></div>
+                <div data-v-1a609ef6="" class="row">
+                  <div data-v-1a609ef6="" class="col-lg-3">
+                    <div data-v-1a609ef6="" class="vc_column-inner vc_custom_1566377879884">
+                      <div data-v-1a609ef6="" class="wpb_wrapper">
+                        <div data-v-1a609ef6="" class="wpb_single_image wpb_content_element vc_align_center">
+                          <figure data-v-1a609ef6="" class="wpb_wrapper vc_figure">
+                            <div data-v-1a609ef6="" class="vc_single_image-wrapper   vc_box_border_grey text-center">
+                              <img data-v-1a609ef6="" width="242.5" height="242.5" src="/img/2019/08/kais.png" alt="" class="vc_single_image-img attachment-full">
+                            </div>
+                          </figure>
+                        </div>
+                        <div data-v-1a609ef6="" data-id="5df9defae4662" data-height="20" data-height-mobile="20" data-height-tab="20" data-height-tab-portrait="" data-height-mobile-landscape="" class="ult-spacer spacer-5df9defae4662" style="clear: both; display: block;"></div>
+                        <div data-v-1a609ef6="" id="ultimate-heading-72535df9defae4682" data-hspacer="no_spacer" data-halign="center" class="uvc-heading ult-adjust-bottom-margin ultimate-heading-72535df9defae4682 uvc-907 " style="text-align: center;">
+                          <div data-v-1a609ef6="" class="uvc-heading-spacer no_spacer"></div>
+                          <div data-v-1a609ef6="" data-ultimate-target=".uvc-heading.ultimate-heading-72535df9defae4682 h2" data-responsive-json-new="{&quot;font-size&quot;:&quot;desktop:18px;&quot;,&quot;line-height&quot;:&quot;&quot;}" class="team-header">
+                            <h2 data-v-1a609ef6="" style="font-weight: bold; color: rgb(255, 255, 255);">Kais Lin</h2>
+                          </div>
+                        </div>
+                        <div data-v-1a609ef6="" data-id="5df9defae469c" data-height="5" data-height-mobile="5" data-height-tab="5" data-height-tab-portrait="" data-height-mobile-landscape="" class="ult-spacer spacer-5df9defae469c" style="clear: both; display: block;"></div>
+                        <div data-v-1a609ef6="" class="wpb_text_column wpb_content_element ">
+                          <div data-v-1a609ef6="" class="wpb_wrapper">
+                            <p data-v-1a609ef6="" class="p1" style="text-align: center; color: rgb(255, 255, 255); font-size: 13px;">Back-end Engineer</p>
+                          </div>
+                        </div>
+                        <div data-v-1a609ef6="" data-id="5df9defae4735" data-height="20" data-height-mobile="20" data-height-tab="20" data-height-tab-portrait="" data-height-mobile-landscape="" class="ult-spacer spacer-5df9defae4735" style="clear: both; display: block;"></div>
+                        <div data-v-1a609ef6="" class="wpb_text_column wpb_content_element ">
+                          <div data-v-1a609ef6="" class="wpb_wrapper">
+                            <p data-v-1a609ef6="">
+                              <span data-v-1a609ef6="" style="color: rgb(255, 255, 255); font-size: 14px; text-align: center; letter-spacing: 1px;">Responsible for the back-end development and deployment of the system. He paid attention to the back-end developers of various open source communities, and has held Javascript community gatherings for many times.</span>
+                            </p>
+                          </div>
+                        </div>
+                        <div data-v-1a609ef6="" data-id="5df9defae47a0" data-height="40" data-height-mobile="40" data-height-tab="40" data-height-tab-portrait="" data-height-mobile-landscape="" class="ult-spacer spacer-5df9defae47a0" style="clear: both; display: block;"></div>
+                      </div>
+                    </div>
+                  </div>
+                  <div data-v-1a609ef6="" class="col-lg-3">
+                    <div data-v-1a609ef6="" class="vc_column-inner vc_custom_1566377887760">
+                      <div data-v-1a609ef6="" class="wpb_wrapper">
+                        <div data-v-1a609ef6="" class="wpb_single_image wpb_content_element vc_align_center">
+                          <figure data-v-1a609ef6="" class="wpb_wrapper vc_figure">
+                            <div data-v-1a609ef6="" class="vc_single_image-wrapper   vc_box_border_grey text-center">
+                              <img data-v-1a609ef6="" width="242.5" height="242.5" src="/img/2019/08/paul.png" alt="" class="vc_single_image-img attachment-full">
+                            </div>
+                          </figure>
+                        </div>
+                        <div data-v-1a609ef6="" data-id="5df9defae57a5" data-height="20" data-height-mobile="20" data-height-tab="20" data-height-tab-portrait="" data-height-mobile-landscape="" class="ult-spacer spacer-5df9defae57a5" style="clear: both; display: block;"></div>
+                        <div data-v-1a609ef6="" id="ultimate-heading-56585df9defae57c7" data-hspacer="no_spacer" data-halign="center" class="uvc-heading ult-adjust-bottom-margin ultimate-heading-56585df9defae57c7 uvc-4311 " style="text-align: center;">
+                          <div data-v-1a609ef6="" class="uvc-heading-spacer no_spacer"></div>
+                          <div data-v-1a609ef6="" data-ultimate-target=".uvc-heading.ultimate-heading-56585df9defae57c7 h2" data-responsive-json-new="{&quot;font-size&quot;:&quot;desktop:18px;&quot;,&quot;line-height&quot;:&quot;&quot;}" class="team-header">
+                            <h2 data-v-1a609ef6="" style="font-weight: bold; color: rgb(255, 255, 255);">Paul Huang</h2>
+                          </div>
+                        </div>
+                        <div data-v-1a609ef6="" data-id="5df9defae57e1" data-height="5" data-height-mobile="5" data-height-tab="5" data-height-tab-portrait="" data-height-mobile-landscape="" class="ult-spacer spacer-5df9defae57e1" style="clear: both; display: block;"></div>
+                        <div data-v-1a609ef6="" class="wpb_text_column wpb_content_element ">
+                          <div data-v-1a609ef6="" class="wpb_wrapper">
+                            <p data-v-1a609ef6="" class="p1" style="text-align: center; color: rgb(255, 255, 255); font-size: 13px;">Front-end Engineer</p>
+                          </div>
+                        </div>
+                        <div data-v-1a609ef6="" data-id="5df9defae5867" data-height="20" data-height-mobile="20" data-height-tab="20" data-height-tab-portrait="" data-height-mobile-landscape="" class="ult-spacer spacer-5df9defae5867" style="clear: both; display: block;"></div>
+                        <div data-v-1a609ef6="" class="wpb_text_column wpb_content_element ">
+                          <div data-v-1a609ef6="" class="wpb_wrapper">
+                            <p data-v-1a609ef6="">
+                              <span data-v-1a609ef6="" style="color: rgb(255, 255, 255); font-size: 14px; text-align: center;">With 3 years of front-end development experience, he is good at implementing the Javascript web interface and is involved in implementing multiple DApps. He is mainly responsible for the interface development of Boltchain services.</span>
+                            </p>
+                          </div>
+                        </div>
+                        <div data-v-1a609ef6="" style="height: 40px;"></div>
+                      </div>
+                    </div>
+                  </div>
+                  <div data-v-1a609ef6="" class="col-lg-3">
+                    <div data-v-1a609ef6="" class="vc_column-inner vc_custom_1566377879884">
+                      <div data-v-1a609ef6="" class="wpb_wrapper">
+                        <div data-v-1a609ef6="" class="wpb_single_image wpb_content_element vc_align_center">
+                          <figure data-v-1a609ef6="" class="wpb_wrapper vc_figure">
+                            <div data-v-1a609ef6="" class="vc_single_image-wrapper   vc_box_border_grey text-center">
+                              <img data-v-1a609ef6="" width="242.5" height="242.5" src="/img/2019/08/emily.png" alt="" class="vc_single_image-img attachment-full">
+                            </div>
+                          </figure>
+                        </div>
+                        <div data-v-1a609ef6="" data-id="5df9defae4662" data-height="20" data-height-mobile="20" data-height-tab="20" data-height-tab-portrait="" data-height-mobile-landscape="" class="ult-spacer spacer-5df9defae4662" style="clear: both; display: block;"></div>
+                        <div data-v-1a609ef6="" id="ultimate-heading-72535df9defae4682" data-hspacer="no_spacer" data-halign="center" class="uvc-heading ult-adjust-bottom-margin ultimate-heading-72535df9defae4682 uvc-907 " style="text-align: center;">
+                          <div data-v-1a609ef6="" class="uvc-heading-spacer no_spacer"></div>
+                          <div data-v-1a609ef6="" data-ultimate-target=".uvc-heading.ultimate-heading-72535df9defae4682 h2" data-responsive-json-new="{&quot;font-size&quot;:&quot;desktop:18px;&quot;,&quot;line-height&quot;:&quot;&quot;}" class="team-header">
+                            <h2 data-v-1a609ef6="" style="font-weight: bold; color: rgb(255, 255, 255);">Emily Liang</h2>
+                          </div>
+                        </div>
+                        <div data-v-1a609ef6="" data-id="5df9defae469c" data-height="5" data-height-mobile="5" data-height-tab="5" data-height-tab-portrait="" data-height-mobile-landscape="" class="ult-spacer spacer-5df9defae469c" style="clear: both; display: block;"></div>
+                        <div data-v-1a609ef6="" class="wpb_text_column wpb_content_element ">
+                          <div data-v-1a609ef6="" class="wpb_wrapper">
+                            <p data-v-1a609ef6="" class="p1" style="text-align: center; color: rgb(255, 255, 255); font-size: 13px;">Front-end Engineer</p>
+                          </div>
+                        </div>
+                        <div data-v-1a609ef6="" data-id="5df9defae4735" data-height="20" data-height-mobile="20" data-height-tab="20" data-height-tab-portrait="" data-height-mobile-landscape="" class="ult-spacer spacer-5df9defae4735" style="clear: both; display: block;"></div>
+                        <div data-v-1a609ef6="" class="wpb_text_column wpb_content_element ">
+                          <div data-v-1a609ef6="" class="wpb_wrapper">
+                            <p data-v-1a609ef6="">
+                              <span data-v-1a609ef6="" style="color: rgb(255, 255, 255); font-size: 14px; text-align: center; letter-spacing: 1px;">She was involved in the cloud software development, responsible for front-end interface development, and was familiar with user experience design. She was also responsible for performing user research and user interface testing.</span>
+                            </p>
+                          </div>
+                        </div>
+                        <div data-v-1a609ef6="" data-id="5df9defae47a0" data-height="40" data-height-mobile="40" data-height-tab="40" data-height-tab-portrait="" data-height-mobile-landscape="" class="ult-spacer spacer-5df9defae47a0" style="clear: both; display: block;"></div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div data-v-1a609ef6="" style="height: 120px;"></div>
+    </div>
+  </div>
+  <div data-v-1a609ef6="" id="contact" name="contact" class="container-fluid">
+    <div data-v-1a609ef6="" data-bg-override="ex-full" class="upb_row_bg" style="background-image: url(&quot;./../img/2018/06/shutterstock_519133078.jpg&quot;); height: 874px;">
+      <div data-v-1a609ef6="" style="height: 120px;"></div>
+      <div data-v-1a609ef6="" class="wpb_column vc_column_container vc_col-sm-12">
+        <div data-v-1a609ef6="" class="vc_column-inner ">
+          <div data-v-1a609ef6="" class="wpb_wrapper">
+            <div data-v-1a609ef6="" data-id="5df8d2bd7363a" data-height="120" data-height-mobile="40" data-height-tab="" data-height-tab-portrait="" data-height-mobile-landscape="40" class="ult-spacer spacer-5df8d2bd7363a" style="clear: both; display: block;"></div>
+            <h3 data-v-1a609ef6="" class="custom_header" style="color: rgb(0, 0, 0); text-align: center;">Contact Us</h3>
+            <div data-v-1a609ef6="" class="wpb_text_column wpb_content_element ">
+              <div data-v-1a609ef6="" class="wpb_wrapper">
+                <p data-v-1a609ef6="" style="text-align: center; margin-top: 10px; margin-bottom: 5px; color: rgb(173, 176, 184);">__</p>
+              </div>
+            </div>
+            <div data-v-1a609ef6="" class="vc_empty_space" style="height: 40px;">
+              <span data-v-1a609ef6="" class="vc_empty_space_inner"></span>
+            </div>
+            <div data-v-1a609ef6="" class="container">
+              <div data-v-1a609ef6="" class="row">
+                <div data-v-1a609ef6="" class="col-sm-6">
+                  <div data-v-1a609ef6="" class="vc_column-inner ">
+                    <div data-v-1a609ef6="" class="wpb_wrapper">
+                      <h1 data-v-1a609ef6="" class="custom_header" style="font-size: 18px; color: rgb(6, 110, 183); text-align: left;">Contact info </h1>
+                      <div data-v-1a609ef6="" data-id="5df8d2bd739f7" data-height="10" data-height-mobile="10" data-height-tab="10" data-height-tab-portrait="" data-height-mobile-landscape="" class="ult-spacer spacer-5df8d2bd739f7" style="clear: both; display: block;"></div>
+                      <div data-v-1a609ef6="" class="wpb_text_column wpb_content_element ">
+                        <div data-v-1a609ef6="" class="wpb_wrapper">
+                          <p data-v-1a609ef6="">9F., No. 156, Sec. 3, Minsheng E. Rd., Songshan Dist., Taipei City 105, Taiwan</p>
+                        </div>
+                      </div>
+                      <div data-v-1a609ef6="" class="wpb_text_column wpb_content_element ">
+                        <div data-v-1a609ef6="" class="wpb_wrapper">
+                          <p data-v-1a609ef6="">
+                            <span data-v-1a609ef6="" style="color: rgb(103, 101, 111);">+886 2-2700-1979</span>
+                          </p>
+                        </div>
+                      </div>
+                      <div data-v-1a609ef6="" class="wpb_text_column wpb_content_element ">
+                        <div data-v-1a609ef6="" class="wpb_wrapper">
+                          <p data-v-1a609ef6="">service@boltchain.io</p>
+                        </div>
+                      </div>
+                      <div data-v-1a609ef6="" class="vc_separator wpb_content_element vc_separator_align_center vc_sep_width_10 vc_sep_pos_align_left vc_separator_no_text">
+                        <span data-v-1a609ef6="" class="vc_sep_holder vc_sep_holder_l">
+                          <span data-v-1a609ef6="" class="vc_sep_line contact-line" style="border-color: rgb(103, 101, 111);"></span>
+                        </span>
+                      </div>
+                      <div data-v-1a609ef6="" class="wpb_raw_code wpb_content_element wpb_raw_html">
+                        <div data-v-1a609ef6="" class="wpb_wrapper">
+                          <link data-v-1a609ef6="" rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+                          <a data-v-1a609ef6="" href="/" target="_blank" class="fa fa-facebook fa-footer"></a>
+                          <a data-v-1a609ef6="" href="main.contact.link.github" target="_blank" class="fa fa-github-alt fa-footer"></a>
+                          <a data-v-1a609ef6="" href="/" target="_blank" class="fa fa-medium fa-footer"></a>
+                        </div>
+                      </div>
+                      <div data-v-1a609ef6="" data-id="5df8d2bd73c8b" data-height="30" data-height-mobile="30" data-height-tab="30" data-height-tab-portrait="" data-height-mobile-landscape="" class="ult-spacer spacer-5df8d2bd73c8b" style="clear: both; display: block;"></div>
+                    </div>
+                  </div>
+                </div>
+                <div data-v-1a609ef6="" class="col-sm-6">
+                  <div data-v-1a609ef6="" class="vc_column-inner ">
+                    <div data-v-1a609ef6="" class="wpb_wrapper">
+                      <div data-v-1a609ef6="">
+                        <p data-v-1a609ef6="">If you wish to contact us further, please leave your information</p>
+                      </div>
+                      <div data-v-1a609ef6="" style="height: 10px;"></div>
+                      <form data-v-1a609ef6="" id="contact" class="">
+                        <fieldset data-v-1a609ef6="" id="input-group-2" class="form-group">
+                          <!---->
+                          <div tabindex="-1" role="group">
+                            <input data-v-1a609ef6="" id="your-name" type="text" placeholder="Your title*" required="required" aria-required="true" class="form-control">
+                            <!---->
+                            <!---->
+                            <!---->
+                          </div>
+                        </fieldset>
+                        <fieldset data-v-1a609ef6="" id="input-group-2" class="form-group">
+                          <!---->
+                          <div tabindex="-1" role="group">
+                            <input data-v-1a609ef6="" id="your-phone" type="text" placeholder="Phone number*" required="required" aria-required="true" class="form-control">
+                            <!---->
+                            <!---->
+                            <!---->
+                          </div>
+                        </fieldset>
+                        <fieldset data-v-1a609ef6="" id="input-group-2" class="form-group">
+                          <!---->
+                          <div tabindex="-1" role="group">
+                            <input data-v-1a609ef6="" id="your-email" type="text" placeholder="Email" class="form-control">
+                            <!---->
+                            <!---->
+                            <!---->
+                          </div>
+                        </fieldset>
+                        <fieldset data-v-1a609ef6="" id="input-group-2" class="form-group">
+                          <!---->
+                          <div tabindex="-1" role="group">
+                            <textarea data-v-1a609ef6="" id="your-message" placeholder="Message*" required="required" rows="2" wrap="soft" aria-required="true" class="form-control" pressed.sync="true"></textarea>
+                            <!---->
+                            <!---->
+                            <!---->
+                          </div>
+                        </fieldset>
+                        <button data-v-1a609ef6="" id="submit" type="submit" class="btn btn-primary rounded-pill">Send</button>
+                      </form>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div data-v-1a609ef6="" style="height: 120px;"></div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
