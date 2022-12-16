@@ -11,86 +11,18 @@
   .bg_info {
     padding-right: 35px;
   }
-  .navlogo {
-    width: 130px !important;
-    background-size: 100% auto !important;
-  }
-}
-.headerNavbar {
-  font-family: "Roboto", "Arial", "sans-serif", sans-serif;
-  font-weight: 500;
-  font-size: 15px;
-  color: #fff;
-  text-transform: none;
-  letter-spacing: 0;
-  z-index: 1;
-}
-.navlogo {
-  max-height: 40px;
-  margin-top: 7px;
-  margin-bottom: 7px;
-}
-.dropdownItem {
-  color: #a8a8a8 !important;
 }
 
-.navitem a {
-  color: white;
+.container_fluid,
+.container_lg,
+.container_md,
+.container_sm,
+.container_xl {
+  width: 100%;
+  padding-right: 0px;
+  padding-left: 0px;
+}
 
-  border-top: 0px solid;
-  padding-left: 6px;
-  padding-right: 6px;
-}
-.navbar-dark .navbar-nav .nav-link {
-  color: white;
-}
-.nav-single-item {
-  padding: 0px 12px;
-}
-#nav-bar {
-  height: 12px;
-  border-left: 1px solid;
-  margin-top: 14px;
-}
-.headerNavbar {
-  transition: 0.8s;
-}
-/* .navitem a span {
-  border-top: 0px solid;
-  padding-left: 6px;
-  padding-right: 6px;
-} */
-.dropdown-toggle::after {
-  border-top: 0px solid;
-}
-#lang-dropdown .dropdown-toggle::after {
-  border-top: 0.3em solid;
-  border-right: 0.3em solid transparent;
-  border-bottom: 0;
-  border-left: 0.3em solid transparent;
-  position: absolute;
-  top: 18px;
-  right: 3px;
-}
-.dropdown:hover .dropdownMenu {
-  max-height: 300px;
-  opacity: 1;
-  display: block;
-}
-.dropdown {
-  -webkit-transition: all 0.3s;
-  -moz-transition: all 0.3s;
-  -ms-transition: all 0.3s;
-  -o-transition: all 0.3s;
-  transition: all 0.3s;
-}
-.dropdown .dropdownMenu {
-  max-height: 0;
-  display: none;
-  /* display: block; */
-  overflow: hidden;
-  opacity: 0;
-}
 .tr:nth-of-type(even) {
   background-color: rgba(0, 0, 0, 0.05) !important;
 }
@@ -115,12 +47,12 @@
   float: left;
   background-color: white;
 }
-.fullwidth-container {
+.fullwidth_container {
   height: auto;
   background: url(/img/2019/03/shutterstock_697695823-1.jpg) no-repeat;
   background-size: auto auto !important;
 }
-.container-center {
+.container_center {
   padding: 150px 15px;
 }
 .container {
@@ -260,7 +192,7 @@
     height: 30px !important;
   }
   .headerNavbarWhite .navlogo {
-    background-image: url("./../../public/img/bolt_logo_5.png") !important;
+    background-image: url("./../../public/img/2019/05/bolt_logo_5.png") !important;
   }
   #nav-bar {
     display: none;
