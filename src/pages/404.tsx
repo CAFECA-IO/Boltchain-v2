@@ -18,7 +18,11 @@ function NotFoundPage() {
             It seems we can't find what you're looking for. Perhaps searching
             one of the links in the above menu, can help.
           </h4>
-          <Button className="btn btn-primary rounded-pill" id="submit" href="/">
+          <Button
+            className="btn btn-primary rounded-pill"
+            id={myStyles.submit}
+            href="/"
+          >
             GO TO HOMEPAGE
           </Button>
         </div>
