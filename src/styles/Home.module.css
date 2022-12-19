@@ -311,3 +311,56 @@ textarea::placeholder {
   font-size: 30px;
   display: inline-block;
 }
+
+.usecase01 {
+  background-size: cover;
+  background-repeat: repeat;
+  background-color: rgba(0, 0, 0, 0);
+  background-image: url("/img/2018/09/app_bg-3.jpg");
+  background-attachment: scroll;
+}
+.usecase02 {
+  position: relative;
+}
+.usecase03 {
+  height: 120px;
+}
+.usecase04 {
+  font-weight: normal;
+}
+.usecase05 {
+  color: #ffffff;
+}
+.usecase06 {
+  text-align: center;
+  margin-top: -15px;
+  margin-bottom: 80px;
+  color: #adb0b8;
+}
+.usecaseImg {
+  max-width: 480px;
+}
+.usecaseText {
+  color: #000000;
+  font-size: 18px;
+}
+.usecaseTitle {
+  font-size: 32px;
+  color: rgb(255, 255, 255);
+  text-align: left;
+  margin-top: 40px;
+  margin-bottom: 10px;
+}
+.usecaseDescription {
+  line-height: 1.5;
+  color: rgb(255, 255, 255);
+}
+.usecase07 {
+  height: 14px;
+}
+.usecaseLink {
+  padding: 8px 19px;
+  background-color: rgb(0, 53, 91);
+  border: 1px solid transparent;
+  color: rgb(255, 255, 255);
+}
