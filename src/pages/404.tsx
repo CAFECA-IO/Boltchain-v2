@@ -1,30 +1,30 @@
-import styles from "../styles/index.module.css";
 import myStyles from "../styles/notfound.module.css";
 
+import { useTranslation } from "next-i18next";
 import { serverSideTranslations } from "next-i18next/serverSideTranslations";
-import { Button } from "reactstrap";
+
+import Link from "next/link";
 
 function NotFoundPage() {
+  const { t } = useTranslation("common");
+
+  console.log(t("faq.title"));
+  console.log(t("notFound.backhome"));
   return (
     <div className={`container-fluid ${myStyles.container_fluid}`}>
       <div className={myStyles.layout}></div>
       <div className={myStyles.container}>
         <div className={myStyles.not_found_jumbotron}>
           <img src="/img/error.png" className={myStyles.not_found_img} />
-          <h1 className={myStyles.not_found_title}>
-            Oops! There is nothing here...
-          </h1>
+          <h1 className={myStyles.not_found_title}>{t("notFound.title")}</h1>
           <h4 className={myStyles.not_found_description}>
-            It seems we can't find what you're looking for. Perhaps searching
-            one of the links in the above menu, can help.
+            {t("notFound.description")}
           </h4>
-          <Button
-            className="btn btn-primary rounded-pill"
-            id={myStyles.submit}
-            href="/"
-          >
-            GO TO HOMEPAGE
-          </Button>
+          <button className="btn btn-primary rounded-pill" id={myStyles.submit}>
+            <Link href="/" className={myStyles.link}>
+              {t("notFound.backhome")}
+            </Link>
+          </button>
         </div>
       </div>
     </div>

@@ -36,3 +36,11 @@
   padding: 10px 26px;
   background-color: #066eb7;
 }
+
+.link {
+  text-decoration: none;
+  color: white;
+}
+.link:hover {
+  color: white;
+}
