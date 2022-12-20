@@ -8,8 +8,6 @@ import Link from "next/link";
 function NotFoundPage() {
   const { t } = useTranslation("common");
 
-  console.log(t("faq.title"));
-  console.log(t("notFound.backhome"));
   return (
     <div className={`container-fluid ${myStyles.container_fluid}`}>
       <div className={myStyles.layout}></div>

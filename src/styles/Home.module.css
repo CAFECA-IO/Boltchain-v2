@@ -151,7 +151,7 @@ li:not(.testimonials-slide),
   font-family: "Roboto", "Arial", "sans-serif", sans-serif;
   font-weight: normal;
   font-size: 15px;
-  color: #adb0b8;
+  /* color: #adb0b8; */
   margin-bottom: 6px;
 }
 .contact-line {
@@ -355,12 +355,19 @@ textarea::placeholder {
   line-height: 1.5;
   color: rgb(255, 255, 255);
 }
-.usecase07 {
-  height: 14px;
-}
 .usecaseLink {
   padding: 8px 19px;
   background-color: rgb(0, 53, 91);
   border: 1px solid transparent;
   color: rgb(255, 255, 255);
+}
+.usecaseLink:hover {
+  background-color: rgb(0, 53, 91);
+}
+.usecaseCard {
+  padding-top: 14px;
+  padding-bottom: 14px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
 }
