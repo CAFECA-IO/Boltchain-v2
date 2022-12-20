@@ -1,9 +1,8 @@
 import "../styles/globals.css";
 import { appWithTranslation } from "next-i18next";
 import type { AppProps } from "next/app";
-import "bootstrap/dist/css/bootstrap.css";
-import MainNavbar from "../components/Navbar";
-import Footer from "../components/Footer";
+import MainNavbar from "../components/navbar";
+import Footer from "../components/footer";
 
 const App = ({ Component, pageProps }: AppProps) => {
   return (

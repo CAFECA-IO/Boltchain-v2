@@ -3,8 +3,8 @@ import myStyles from "../styles/Home.module.css";
 import { useTranslation } from "next-i18next";
 import { serverSideTranslations } from "next-i18next/serverSideTranslations";
 
-import WhyBoltchain from "../components/Why";
-import UseCase from "../components/Usecase";
+import WhyBoltchain from "../components/why";
+import UseCase from "../components/usecase";
 
 export default function Home() {
   const { t } = useTranslation("common");
@@ -35,7 +35,6 @@ export default function Home() {
       </div>
       <div
         id="about"
-        //name="about"
         className="page_content section_page-1513 container-fluid"
       >
         <div className={`container ${styles.container} ${myStyles.container}`}>

@@ -2,8 +2,8 @@
   background-color: rgba(255, 0, 0, 0) !important;
   margin-top: 0px;
   margin-bottom: -86px;
-  padding-left: 50px;
-  padding-right: 95px;
+  padding-left: 30px;
+  padding-right: 30px;
   position: fixed;
   width: 100%;
 }
@@ -27,28 +27,35 @@
 
   display: flex;
   align-items: center;
+  justify-content: space-between;
+
   transition: 0.8s;
   /*overflow: hidden;*/
 }
 .navlogo {
   max-height: 40px;
-  margin-top: 7px;
-  margin-bottom: 7px;
+  margin-top: 20px;
+  margin-bottom: 20px;
 
   background-repeat: no-repeat;
   background-size: cover;
 }
-.dropdownItem {
-  color: #a8a8a8 !important;
 
-  background-color: white;
+.dropdownItem {
+  padding: 10px;
+  width: 100%;
+  color: #a8a8a8 !important;
   border-top: 0px solid;
 }
 
+.dropdownMenu li:hover {
+  background-color: rgb(220, 220, 220);
+}
+
 .navitem {
-  color: white;
+  color: white !important;
   border-top: 0px solid;
-  padding: 0px 12px;
+  padding: 12px;
 }
 
 .navbar_dark .navbar_nav .navlink {
@@ -70,14 +77,16 @@
   border-left: 1px solid;
   margin-top: 14px;
 }
-.headerNavbar {
-  transition: 0.8s;
-}
+
 .headerNavbar ul {
   list-style: none;
   display: flex;
+  flex-direction: row;
   align-items: baseline;
-  margin-left: auto;
+}
+
+.navToggler {
+  display: none;
 }
 
 .dropdown_toggle::after {
@@ -93,13 +102,13 @@
   right: 3px;
 }
 .dropdown:hover .dropdownMenu {
-  max-height: 300px;
+  max-height: 400px;
   opacity: 1;
 
-  position: absolute;
-  display: flex;
+  display: block;
   flex-direction: column;
   background-color: white;
+  border-radius: 4px;
   padding: 5px;
 }
 .dropdown a:hover {
@@ -114,8 +123,8 @@
 }
 .dropdown .dropdownMenu {
   max-height: 0;
-
-  display: block;
+  position: absolute;
+  display: none;
   overflow: hidden;
   opacity: 0;
 }
@@ -153,8 +162,43 @@
     padding: 0px 10px;
   }
 
-  .burgerbtn {
+  .dropdownItem {
+    display: block;
+  }
+  .headerNavbar {
+    display: block;
+  }
+  .headerNavbar ul {
+    flex-direction: column;
+  }
+  .dropdown .dropdownMenu {
+    position: relative;
+    width: 75vw;
+  }
+  .collapseMenu {
+    max-height: 0;
+    opacity: 0;
+    display: none;
+  }
+  .dropdown:hover .dropdownMenu {
+    background-color: transparent;
+  }
+  .dropdownMenu li:hover {
+    background-color: cyan;
+  }
+  .navToggler {
+    margin-top: 20px;
+    float: right;
+    display: block;
+    width: 56px;
+    height: 40px;
+    border: white solid;
+  }
+  .showMenu {
+    max-height: 400px;
+    display: block;
     opacity: 1;
+    transition: 0.7s all ease;
   }
 }
 .bolck1-title {
