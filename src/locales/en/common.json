@@ -355,5 +355,10 @@
     "answer5": "When the hash value of the booster is recorded back into the main chain, the participants is unable to be informed of the consistency of results, so we used distributed auditing techniques and easy-to-use tool to meet their audit needs.",
     "question6": "What is Boltchain different from other cross-chain & sidechain technologies?",
     "answer6": "There are three main categories of side chain technology: relay chain types, lower channel types, and hierarchical side chains.  Boltchain not only solves the problems of the first three traditional side-chain technologies, but also further provides applications such as central service interfaces and cross-chain value swap."
+  },
+  "notFound": {
+    "title": "Oops! There is nothing here...",
+    "description": "It seems we can't find what you're looking for. Perhaps searching one of the links in the above menu, can help.",
+    "backhome": "GO TO HOMEPAGE"
   }
 }

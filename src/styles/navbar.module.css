@@ -27,7 +27,7 @@
 
   display: flex;
   align-items: center;
-
+  transition: 0.8s;
   /*overflow: hidden;*/
 }
 .navlogo {
@@ -43,7 +43,6 @@
 
   background-color: white;
   border-top: 0px solid;
-  padding: 5px 10px 5px 10px;
 }
 
 .navitem {
@@ -55,9 +54,17 @@
 .navbar_dark .navbar_nav .navlink {
   color: white;
 }
+.navlink:hover {
+  color: white;
+}
 .nav_single_item {
+  color: white;
   padding: 0px 12px;
 }
+.nav_single_item:hover {
+  text-decoration: underline;
+}
+
 .navbarline {
   height: 12px;
   border-left: 1px solid;
@@ -72,11 +79,7 @@
   align-items: baseline;
   margin-left: auto;
 }
-/* .navitem a span {
-    border-top: 0px solid;
-    padding-left: 6px;
-    padding-right: 6px;
-  } */
+
 .dropdown_toggle::after {
   border-top: 0px solid;
 }
@@ -97,9 +100,7 @@
   display: flex;
   flex-direction: column;
   background-color: white;
-  border-radius: 4px;
   padding: 5px;
-  z-index: 3;
 }
 .dropdown a:hover {
   color: #a8a8a8;
@@ -122,13 +123,10 @@
   background-color: white !important;
 }
 .headerNavbarWhite a,
-.headerNavbarWhite .navbar_nav .navlink {
+.headerNavbarWhite .navbar-nav .navlink {
   color: #a8a8a8 !important;
 }
-.headerNavbarWhite a,
-.headerNavbarWhite .navbar_nav .navlink {
-  color: #a8a8a8 !important;
-}
+
 .headerNavbarWhite .navlogo {
   background-image: url("./../../public/img/2019/05/bolt_logo_6.png") !important;
   width: 125px !important;

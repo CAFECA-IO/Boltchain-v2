@@ -4,6 +4,7 @@ import { useTranslation } from "next-i18next";
 import { serverSideTranslations } from "next-i18next/serverSideTranslations";
 
 import WhyBoltchain from "../components/Why";
+import UseCase from "../components/Usecase";
 
 export default function Home() {
   const { t } = useTranslation("common");
@@ -16,7 +17,7 @@ export default function Home() {
         <div
           className={`container-center ${styles.container_center} ${myStyles.container_center}`}
         >
-          <div className={styles.pageTitle && myStyles.pageTitle}>
+          <div className={`${styles.pageTitle} ${myStyles.pageTitle}`}>
             <img
               src="/img/2019/05/bolt_logo_7.png"
               alt="Boltchain_logo_white"
@@ -27,9 +28,6 @@ export default function Home() {
             <img
               src="/img/2018/06/Scroll-Down-icon-Home3.gif"
               alt=""
-              data-ls="delayin:1000;easingin:easeInExpo;transitionout:false;"
-              data-ls-slidein="1"
-              data-ls-slideout="1"
               className={`ls-layer ${myStyles.ls_layer}`}
             />
           </div>
@@ -38,7 +36,6 @@ export default function Home() {
       <div
         id="about"
         //name="about"
-        data-section-title="什麼是 Boltchain"
         className="page_content section_page-1513 container-fluid"
       >
         <div className={`container ${styles.container} ${myStyles.container}`}>
@@ -48,17 +45,10 @@ export default function Home() {
                 <div className="wpb_wrapper">
                   <div className={myStyles.style11}></div>
                   <div
-                    id="ultimate-heading-36475df992b78ad75"
-                    data-hspacer="no_spacer"
-                    data-halign="center"
                     className={`uvc-heading ult-adjust-bottom-margin ultimate-heading-36475df992b78ad75 uvc-8158 ${myStyles.style12}`}
                   >
                     <div className="uvc-heading-spacer no_spacer"></div>
-                    <div
-                      data-ultimate-target=".uvc-heading.ultimate-heading-36475df992b78ad75 h1"
-                      data-responsive-json-new="{font-size:desktop:42px;,line-height:}"
-                      className="uvc-main-heading ult-responsive"
-                    >
+                    <div className="uvc-main-heading ult-responsive">
                       <h1 className={myStyles.style13}>
                         {t("main.about.title")}
                       </h1>
@@ -94,7 +84,17 @@ export default function Home() {
           </div>
         </div>
       </div>
-      <WhyBoltchain />
+
+      <div id="why" className={`container-fluid ${myStyles.container_fluid}`}>
+        <WhyBoltchain />
+      </div>
+
+      <div
+        id="case"
+        className={`container-fluid ${myStyles.container_fluid} ${myStyles.usecase01}`}
+      >
+        <UseCase />
+      </div>
     </div>
   );
 }
