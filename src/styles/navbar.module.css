@@ -53,6 +53,10 @@
   border-top: 0px solid;
 }
 
+.dropdownMenu li {
+  padding: 10px;
+}
+
 .dropdownMenu li:hover {
   background-color: rgb(220, 220, 220);
 }
@@ -106,8 +110,10 @@
 }
 .dropdown:hover .dropdownMenu {
   max-height: 400px;
-  opacity: 1;
+  margin-top: 10px;
 
+  opacity: 1;
+  position: absolute;
   display: block;
   flex-direction: column;
   background-color: white;
@@ -119,7 +125,6 @@
 }
 .dropdown .dropdownMenu {
   max-height: 0;
-  position: absolute;
   display: none;
   overflow: hidden;
   opacity: 0;

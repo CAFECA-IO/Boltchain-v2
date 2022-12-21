@@ -1,5 +1,6 @@
 .container {
   padding: 150px 15px;
+  height: 450px;
 }
 .page_title {
   text-align: center;
@@ -7,7 +8,6 @@
   font-size: 52px;
   font-family: Roboto, Arial, "sans-serif", sans-serif;
   font-weight: 700;
-  margin-top: 20px;
 }
 .master_container {
   width: 100vw;

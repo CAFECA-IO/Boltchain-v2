@@ -10,7 +10,7 @@ export default function Home() {
   const { t } = useTranslation("common");
 
   return (
-    <div className="ls-slide-effects">
+    <>
       <div
         className={`fullwidth-container ${styles.fullwidth_container} ${myStyles.fullwidth_container}`}
       >
@@ -84,17 +84,17 @@ export default function Home() {
         </div>
       </div>
 
-      <div id="why" className={`container-fluid ${myStyles.container_fluid}`}>
+      <div id="why" className={` ${myStyles.container_fluid}`}>
         <WhyBoltchain />
       </div>
 
       <div
         id="case"
-        className={`container-fluid ${myStyles.container_fluid} ${myStyles.usecase01}`}
+        className={` ${myStyles.container_fluid} ${myStyles.usecase01}`}
       >
         <UseCase />
       </div>
-    </div>
+    </>
   );
 }
 export async function getStaticProps({ locale }: any) {

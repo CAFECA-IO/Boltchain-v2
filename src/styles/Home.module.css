@@ -2,6 +2,8 @@
   height: 820px;
   background: url("/img/homepage/shutterstock_697695823-1.jpg") 0% 0% / 100%
     no-repeat;
+
+  scroll-behavior: smooth;
 }
 
 .container_center {
@@ -174,49 +176,11 @@ li:not(.testimonials-slide),
   border-radius: 50%;
   margin-right: 10px;
 }
-/* #input-group-2 input,
-textarea {
-  position: relative;
-  float: left;
-  width: 100%;
-  padding: 22px 20px;
-  outline: 0;
-  margin: 5px 0;
-  background: #f9f9f9;
-  border-radius: 30px !important;
-  border: 1px solid #e4e4e4;
-  color: #c7c7c7 !important;
-  font-size: 14px !important;
-  letter-spacing: 0;
-  font-weight: 500;
-}
-#input-group-2 textarea {
-  height: 200px;
-}
-#input-group-2 input::-webkit-input-placeholder,
-textarea::-webkit-input-placeholder {
-  Edge 
-  color: #8f8f8f;
-}
-#input-group-2 input:-ms-input-placeholder,
-textarea:-ms-input-placeholder {
-  Internet Explorer 10-11 
-  color: #8f8f8f;
-}
-#input-group-2 input::placeholder,
-textarea::placeholder {
-  color: #8f8f8f;
-} */
+
 .form-group {
   margin: 10px 0px;
 }
-#submit {
-  margin-top: 20px;
-  background-color: #066eb7;
-  font-size: 15px;
-  padding: 6px 15px;
-  font-weight: normal;
-}
+
 @media (max-width: 992px) {
   #input-group-2 textarea {
     height: 36px;
@@ -312,62 +276,54 @@ textarea::placeholder {
   display: inline-block;
 }
 
-.usecase01 {
+.usecase_main {
   background-size: cover;
   background-repeat: repeat;
   background-color: rgba(0, 0, 0, 0);
   background-image: url("/img/2018/09/app_bg-3.jpg");
   background-attachment: scroll;
 }
-.usecase02 {
-  position: relative;
-}
-.usecase03 {
-  height: 120px;
-}
-.usecase04 {
+.usecase_theme h1 {
+  padding-top: 120px;
+  text-align: center;
   font-weight: normal;
-}
-.usecase05 {
+  font-size: 2.5rem;
   color: #ffffff;
 }
-.usecase06 {
+.usecase01 {
   text-align: center;
-  margin-top: -15px;
   margin-bottom: 80px;
   color: #adb0b8;
 }
 .usecaseImg {
   max-width: 480px;
 }
-.usecaseText {
-  color: #000000;
-  font-size: 18px;
-}
-.usecaseTitle {
-  font-size: 32px;
-  color: rgb(255, 255, 255);
-  text-align: left;
-  margin-top: 40px;
-  margin-bottom: 10px;
-}
-.usecaseDescription {
-  line-height: 1.5;
-  color: rgb(255, 255, 255);
-}
 .usecaseLink {
   padding: 8px 19px;
   background-color: rgb(0, 53, 91);
-  border: 1px solid transparent;
+  border: none;
+  border-radius: 50px;
   color: rgb(255, 255, 255);
 }
 .usecaseLink:hover {
   background-color: rgb(0, 53, 91);
 }
 .usecaseCard {
-  padding-top: 14px;
-  padding-bottom: 14px;
+  padding: 14px 30px 14px 30px;
   display: flex;
-  justify-content: space-between;
-  align-items: center;
+}
+.usecaseTextbox {
+  display: block;
+  text-align: left;
+}
+.usecaseTextbox h2 {
+  font-size: 32px;
+  color: rgb(255, 255, 255);
+  text-align: left;
+  margin-top: 40px;
+  margin-bottom: 10px;
+}
+.usecaseTextbox p {
+  line-height: 1.5;
+  color: rgb(255, 255, 255);
 }

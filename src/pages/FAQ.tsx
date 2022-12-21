@@ -6,8 +6,23 @@ import { serverSideTranslations } from "next-i18next/serverSideTranslations";
 
 import FAQItems from "../components/faqItems";
 
+const contents = [1, 2, 3, 4, 5, 6];
+
 function FAQPage() {
   const { t } = useTranslation("common");
+
+  const list = contents.map((v) => {
+    return (
+      <>
+        <FAQItems
+          key={t(`faq.question${v}`)}
+          que={t(`faq.question${v}`)}
+          ans={t(`faq.answer${v}`)}
+        />
+        <span className={myStyles.hline}></span>
+      </>
+    );
+  });
 
   return (
     <div>
@@ -17,20 +32,7 @@ function FAQPage() {
         </div>
 
         <div className={myStyles.master_container}>
-          <section className={myStyles.page_content}>
-            <FAQItems
-              key={t("faq.question1")}
-              que={t("faq.question1")}
-              ans={t("faq.answer1")}
-            />
-            <span className={myStyles.hline}></span>
-            <FAQItems
-              key={t("faq.question2")}
-              que={t("faq.question2")}
-              ans={t("faq.answer2")}
-            />
-            <span className={myStyles.hline}></span>
-          </section>
+          <section className={myStyles.page_content}>{list}</section>
         </div>
       </div>
     </div>
