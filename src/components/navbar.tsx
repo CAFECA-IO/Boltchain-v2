@@ -9,28 +9,56 @@ import Image from "next/image";
 
 function MainNavbar() {
   const { t } = useTranslation("common");
+
   const [showSubMenu, setShowSubMenu] = useState(false);
+  const toggleNavbar = () => setShowSubMenu(!showSubMenu);
+
+  const subMenuStyle = showSubMenu ? myStyles.showMenu : myStyles.collapseMenu;
+
+  const [scroll, setScroll] = useState(0);
+  const handleScroll = () => {
+    const position = window.pageYOffset;
+    setScroll(position);
+  };
+  useEffect(() => {
+    window.addEventListener("scroll", handleScroll, { passive: true });
+
+    return () => {
+      window.removeEventListener("scroll", handleScroll);
+    };
+  }, []);
+
+  const scrollMenuStyle =
+    scroll >= 200 ? myStyles.headerNavbarWhite : myStyles.headerNavbar;
 
   return (
     <>
       <nav
-        className={`${myStyles.navbar_dark} ${myStyles.bg_info} ${myStyles.headerNavbar}`}
+        className={`${myStyles.navbar_dark} ${myStyles.bg_info} ${scrollMenuStyle}`}
       >
         <a href="/#">
           <Image
-            src="/img/2019/05/bolt_logo_5.png"
-            alt="logo"
             className={myStyles.navlogo}
+            src="/img/transparent.png"
+            alt=""
             height={40}
             width={166.66}
           ></Image>
         </a>
 
-        <div className={myStyles.navToggler}></div>
+        <label onClick={toggleNavbar} className={myStyles.navToggler}>
+          <span>
+            <Image
+              className={myStyles.burger}
+              src="/img/burger_menu.png"
+              alt=""
+              width={35}
+              height={35}
+            />
+          </span>
+        </label>
 
-        <div
-          className={showSubMenu ? myStyles.showMenu : myStyles.collapseMenu}
-        >
+        <div className={subMenuStyle}>
           <ul>
             <li className={`${myStyles.navitem} ${myStyles.dropdown}`}>
               <Link

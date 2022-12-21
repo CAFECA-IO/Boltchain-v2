@@ -17,6 +17,7 @@
   }
 }
 .headerNavbar {
+  min-width: 300px;
   font-family: "Roboto", "Arial", "sans-serif", sans-serif;
   font-weight: 500;
   font-size: 15px;
@@ -37,6 +38,10 @@
   margin-top: 20px;
   margin-bottom: 20px;
 
+  height: 40px;
+  width: 166.66px;
+
+  background-image: url("./../../public/img/2019/05/bolt_logo_6.png");
   background-repeat: no-repeat;
   background-size: cover;
 }
@@ -78,7 +83,8 @@
   margin-top: 14px;
 }
 
-.headerNavbar ul {
+.headerNavbar ul,
+.headerNavbarWhite ul {
   list-style: none;
   display: flex;
   flex-direction: row;
@@ -130,9 +136,14 @@
 }
 .headerNavbarWhite {
   background-color: white !important;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+
+  transition: 0.8s;
 }
 .headerNavbarWhite a,
-.headerNavbarWhite .navbar-nav .navlink {
+.headerNavbarWhite .dropdown .navlink {
   color: #a8a8a8 !important;
 }
 
@@ -142,16 +153,16 @@
   height: 30px !important;
 }
 @media (max-width: 992px) {
-  .headerNavbar {
+  .headerNavbar,
+  .headerNavbarWhite {
+    display: block;
     background-color: #1c2336 !important;
   }
   .headerNavbar .navlogo {
     width: 125px !important;
     height: 30px !important;
   }
-  .headerNavbarWhite .navlogo {
-    background-image: url("./../../public/img/2019/05/bolt_logo_5.png") !important;
-  }
+
   .navbarline {
     display: none;
   }
@@ -165,10 +176,8 @@
   .dropdownItem {
     display: block;
   }
-  .headerNavbar {
-    display: block;
-  }
-  .headerNavbar ul {
+  .headerNavbar ul,
+  .headerNavbarWhite ul {
     flex-direction: column;
   }
   .dropdown .dropdownMenu {
@@ -177,14 +186,14 @@
   }
   .collapseMenu {
     max-height: 0;
-    opacity: 0;
-    display: none;
+    transition: all 0.7s;
   }
+
   .dropdown:hover .dropdownMenu {
     background-color: transparent;
   }
   .dropdownMenu li:hover {
-    background-color: cyan;
+    background-color: white;
   }
   .navToggler {
     margin-top: 20px;
@@ -193,12 +202,17 @@
     width: 56px;
     height: 40px;
     border: white solid;
+    border-radius: 5px;
   }
+  .burger {
+    display: block;
+    margin: auto;
+  }
+
   .showMenu {
     max-height: 400px;
     display: block;
-    opacity: 1;
-    transition: 0.7s all ease;
+    transition: all 0.7s;
   }
 }
 .bolck1-title {
