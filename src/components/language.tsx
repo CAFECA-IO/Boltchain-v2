@@ -6,24 +6,21 @@ const LanguageSwitch = () => {
   const router = useRouter();
   const { pathname, query } = router;
 
+  const lang: string = router.locale === "en" ? "English" : "繁中";
+
   return (
     <div
       id={myStyles.lang_dropdown}
-      className={` ${myStyles.navitem} ${myStyles.dropdown}`}
+      className={`${myStyles.navitem} ${myStyles.dropdown}`}
     >
-      <Link
-        href="#"
-        className={`nav-link dropdown-toggle ${myStyles.navlink} `}
-      >
-        {router.locale === "en" ? "English" : "繁中"}
+      <Link href="#" className={myStyles.navlink}>
+        {lang}
       </Link>
 
-      <ul
-        className={`dropdown-menu dropdown-menu-right ${myStyles.dropdownMenu}`}
-      >
+      <ul className={myStyles.dropdownMenu}>
         <li>
           <Link
-            className={`dropdown-item ${myStyles.dropdownItem}`}
+            className={myStyles.dropdownItem}
             locale="tw"
             href={{ pathname, query }}
           >
@@ -32,7 +29,7 @@ const LanguageSwitch = () => {
         </li>
         <li>
           <Link
-            className={`dropdown-item ${myStyles.dropdownItem}`}
+            className={myStyles.dropdownItem}
             locale="en"
             href={{ pathname, query }}
           >

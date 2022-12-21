@@ -1,0 +1,65 @@
+.container {
+  padding: 150px 15px;
+  height: 450px;
+}
+.page_title {
+  text-align: center;
+  color: rgb(255, 255, 255);
+  font-size: 52px;
+  font-family: Roboto, Arial, "sans-serif", sans-serif;
+  font-weight: 700;
+}
+.master_container {
+  width: 100vw;
+
+  float: left;
+  background-color: white;
+}
+.page_content {
+  margin: 120px 20px 100px 20px;
+  display: flex;
+  flex-direction: column;
+}
+.faq_item_plus,
+.faq_item_minus {
+  padding: 30px;
+  color: rgb(51, 51, 51);
+}
+.faq_item_plus h4,
+.faq_item_minus h4 {
+  display: inline;
+  font-size: 16px;
+  font-weight: 500;
+  text-align: left;
+  margin-left: 20px;
+}
+.faq_item_minus::before {
+  content: "\2796";
+  float: left;
+}
+.faq_item_plus::before {
+  content: "\02795";
+  font-size: 16px;
+  float: left;
+}
+
+.ansClose {
+  margin-left: 35px;
+  max-height: 0;
+  overflow: hidden;
+  opacity: 0;
+  transition: all 0.7s;
+}
+.ansOpen {
+  margin-left: 35px;
+  max-height: 120px;
+  opacity: 1;
+  display: block;
+  transition: all 0.7s;
+}
+
+.hline {
+  width: 90vw;
+  border-bottom: #aaa 1px solid;
+  margin: auto;
+}

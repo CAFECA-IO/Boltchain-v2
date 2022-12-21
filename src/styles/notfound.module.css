@@ -31,10 +31,12 @@
   font-weight: normal;
   color: #adb0b8;
 }
-#submit {
+.submit {
   margin: 40px 0px;
   padding: 10px 26px;
   background-color: #066eb7;
+  border: none;
+  border-radius: 50px;
 }
 
 .link {
