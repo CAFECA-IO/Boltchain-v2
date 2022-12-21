@@ -16,8 +16,8 @@
     background-size: 100% auto !important;
   }
 }
-.headerNavbar {
-  min-width: 300px;
+.headerNavbar,
+.headerNavbarWhite {
   font-family: "Roboto", "Arial", "sans-serif", sans-serif;
   font-weight: 500;
   font-size: 15px;
@@ -33,15 +33,15 @@
   transition: 0.8s;
   /*overflow: hidden;*/
 }
+.headerNavbarWhite {
+  background-color: white !important;
+}
 .navlogo {
   max-height: 40px;
   margin-top: 20px;
   margin-bottom: 20px;
 
-  height: 40px;
-  width: 166.66px;
-
-  background-image: url("./../../public/img/2019/05/bolt_logo_6.png");
+  background-image: url("./../../public/img/2019/05/bolt_logo_5.png");
   background-repeat: no-repeat;
   background-size: cover;
 }
@@ -63,9 +63,6 @@
   padding: 12px;
 }
 
-.navbar_dark .navbar_nav .navlink {
-  color: white;
-}
 .navlink:hover {
   color: white;
 }
@@ -120,13 +117,6 @@
 .dropdown a:hover {
   color: #a8a8a8;
 }
-.dropdown {
-  -webkit-transition: all 0.3s;
-  -moz-transition: all 0.3s;
-  -ms-transition: all 0.3s;
-  -o-transition: all 0.3s;
-  transition: all 0.3s;
-}
 .dropdown .dropdownMenu {
   max-height: 0;
   position: absolute;
@@ -134,14 +124,10 @@
   overflow: hidden;
   opacity: 0;
 }
-.headerNavbarWhite {
-  background-color: white !important;
-  display: flex;
-  align-items: center;
-  justify-content: space-between;
-
-  transition: 0.8s;
+.headerNavbarWhite .dropdownMenu {
+  border: #a8a8a8 1px solid;
 }
+
 .headerNavbarWhite a,
 .headerNavbarWhite .dropdown .navlink {
   color: #a8a8a8 !important;
@@ -162,15 +148,19 @@
     width: 125px !important;
     height: 30px !important;
   }
+  .headerNavbarWhite .navlogo {
+    background-image: url("./../../public/img/2019/05/bolt_logo_5.png") !important;
+  }
+  .headerNavbarWhite a,
+  .headerNavbarWhite .dropdown .navlink {
+    color: white !important;
+  }
 
   .navbarline {
     display: none;
   }
   .nav_single_item {
     padding: 5px 0px 15px 5px;
-  }
-  .wpb_wrapper {
-    padding: 0px 10px;
   }
 
   .dropdownItem {
@@ -181,12 +171,14 @@
     flex-direction: column;
   }
   .dropdown .dropdownMenu {
+    border: none;
     position: relative;
     width: 75vw;
   }
   .collapseMenu {
     max-height: 0;
     transition: all 0.7s;
+    overflow: hidden;
   }
 
   .dropdown:hover .dropdownMenu {
@@ -208,7 +200,6 @@
     display: block;
     margin: auto;
   }
-
   .showMenu {
     max-height: 400px;
     display: block;

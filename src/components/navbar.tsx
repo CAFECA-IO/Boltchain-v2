@@ -33,9 +33,7 @@ function MainNavbar() {
 
   return (
     <>
-      <nav
-        className={`${myStyles.navbar_dark} ${myStyles.bg_info} ${scrollMenuStyle}`}
-      >
+      <nav className={`${myStyles.bg_info} ${scrollMenuStyle}`}>
         <a href="/#">
           <Image
             className={myStyles.navlogo}
