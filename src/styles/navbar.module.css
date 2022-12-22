@@ -54,11 +54,17 @@
 }
 
 .dropdownMenu li {
-  padding: 10px;
+  padding: 5px;
 }
 
 .dropdownMenu li:hover {
   background-color: rgb(220, 220, 220);
+}
+
+@media (min-width: 992px) {
+  .dropdownMenu {
+    position: absolute;
+  }
 }
 
 .navitem {
@@ -99,21 +105,15 @@
 .dropdown_toggle::after {
   border-top: 0px solid;
 }
-#lang_dropdown .dropdown_toggle::after {
-  border-top: 0.3em solid;
-  border-right: 0.3em solid transparent;
-  border-bottom: 0;
-  border-left: 0.3em solid transparent;
-  position: absolute;
-  top: 18px;
-  right: 3px;
+#lang_dropdown .dropdownMenu {
+  right: 20px;
 }
+
 .dropdown:hover .dropdownMenu {
   max-height: 400px;
   margin-top: 10px;
 
   opacity: 1;
-  position: absolute;
   display: block;
   flex-direction: column;
   background-color: white;
@@ -206,7 +206,7 @@
     margin: auto;
   }
   .showMenu {
-    max-height: 400px;
+    max-height: 700px;
     display: block;
     transition: all 0.7s;
   }

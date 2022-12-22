@@ -19,6 +19,7 @@ function FAQItems(props: any) {
           <p>{props.ans}</p>
         </div>
       </div>
+      <span className={myStyles.hline}></span>
     </div>
   );
 }

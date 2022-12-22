@@ -13,14 +13,11 @@ function FAQPage() {
 
   const list = contents.map((v) => {
     return (
-      <>
-        <FAQItems
-          key={t(`faq.question${v}`)}
-          que={t(`faq.question${v}`)}
-          ans={t(`faq.answer${v}`)}
-        />
-        <span className={myStyles.hline}></span>
-      </>
+      <FAQItems
+        key={t(`faq.question${v}`)}
+        que={t(`faq.question${v}`)}
+        ans={t(`faq.answer${v}`)}
+      />
     );
   });
 

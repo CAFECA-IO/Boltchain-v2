@@ -59,6 +59,7 @@
 }
 
 .hline {
+  display: block;
   width: 90vw;
   border-bottom: #aaa 1px solid;
   margin: auto;
