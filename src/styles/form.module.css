@@ -1,0 +1,128 @@
+.form_main {
+  background-image: url("/img/2018/06/shutterstock_519133078.jpg");
+  padding-top: 120px;
+  padding-bottom: 120px;
+  font-size: 25px;
+
+  height: auto;
+}
+
+.form_title h3 {
+  margin: 0;
+  text-align: center;
+  color: black;
+}
+.form_title p {
+  margin: 0;
+  text-align: center;
+  color: rgb(173, 176, 184);
+  font-weight: lighter;
+}
+
+.form_content {
+  margin: 40px 20px 0px 20px;
+  display: flex;
+  align-items: baseline;
+  justify-content: space-between;
+}
+
+@media (max-width: 992px) {
+  .form_content {
+    flex-direction: column;
+  }
+  .contact_area,
+  .form_area {
+    margin: auto;
+    max-width: 100vw;
+  }
+  .form_area {
+    margin: 20px 20px 0 20px;
+  }
+}
+
+@media (min-width: 992px) {
+  .contact_area,
+  .form_area {
+    max-width: 450px;
+  }
+}
+
+.contact_area h1 {
+  margin: 0;
+  margin-bottom: 10px;
+  font-size: 18px;
+  color: rgb(6, 110, 183);
+  text-align: left;
+}
+.contact_area p {
+  margin: 0;
+  margin-bottom: 10px;
+  font-family: Roboto, Arial, "sans-serif", sans-serif;
+  font-weight: 400;
+  font-size: 15px;
+}
+.contact_area p:nth-child(2n) {
+  color: #adb0b8;
+}
+.contact_area p:nth-child(2n-1) {
+  color: rgb(103, 101, 111);
+}
+.contact_line {
+  display: block;
+  width: 50px;
+  border-bottom: #212529 1px solid;
+}
+
+.linkbar {
+  margin-top: 20px;
+  display: flex;
+}
+.linkicon {
+  background-color: #595959;
+  color: white;
+  display: flex;
+  height: 40px;
+  width: 40px;
+  text-align: center;
+  text-decoration: none;
+  border-radius: 50%;
+  margin-right: 10px;
+}
+.brandicon {
+  margin: auto;
+}
+
+.form_area p {
+  font-family: Roboto, Arial, "sans-serif", sans-serif;
+  font-weight: 400;
+  font-size: 15px;
+  color: #adb0b8;
+}
+.inputbox,
+.textarea {
+  float: left;
+  width: 100%;
+  padding: 10px 20px;
+  outline: 0;
+  background: #f9f9f9;
+  border-radius: 30px !important;
+  border: 1px solid #e4e4e4;
+  color: #c7c7c7 !important;
+  margin-bottom: 15px;
+  font-size: 14px !important;
+  font-weight: 500;
+}
+.inputbox::placeholder,
+.textarea::placeholder {
+  opacity: 50%;
+}
+
+.submit {
+  padding: 6px 15px;
+  background-color: #066eb7;
+  font-size: 15px;
+  font-weight: 400;
+  border: none;
+  border-radius: 50px;
+  color: rgb(255, 255, 255);
+}
