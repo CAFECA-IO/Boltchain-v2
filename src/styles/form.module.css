@@ -3,8 +3,6 @@
   padding-top: 120px;
   padding-bottom: 120px;
   font-size: 25px;
-
-  height: auto;
 }
 
 .form_title h3 {
@@ -20,10 +18,11 @@
 }
 
 .form_content {
-  margin: 40px 20px 0px 20px;
+  padding-left: 60px;
+  padding-right: 60px;
+
   display: flex;
   align-items: baseline;
-  justify-content: space-between;
 }
 
 @media (max-width: 992px) {
@@ -92,6 +91,9 @@
   margin: auto;
 }
 
+.form_area {
+  margin-left: auto;
+}
 .form_area p {
   font-family: Roboto, Arial, "sans-serif", sans-serif;
   font-weight: 400;
