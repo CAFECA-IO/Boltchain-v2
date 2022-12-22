@@ -107,7 +107,7 @@ function MainNavbar() {
                   </Link>
                 </li>
                 <li>
-                  <Link href="/bolt-currency" className={myStyles.dropdownItem}>
+                  <Link href="/currency" className={myStyles.dropdownItem}>
                     {t("nav.currency")}
                   </Link>
                 </li>
