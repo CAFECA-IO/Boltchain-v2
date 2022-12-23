@@ -4,25 +4,30 @@ import { useTranslation } from "next-i18next";
 import { serverSideTranslations } from "next-i18next/serverSideTranslations";
 
 import Link from "next/link";
+import Image from "next/image";
 
 function NotFoundPage() {
   const { t } = useTranslation("common");
 
   return (
     <div className={myStyles.container_fluid}>
-      <div className={myStyles.layout}></div>
       <div className={myStyles.container}>
         <div className={myStyles.not_found_jumbotron}>
-          <img src="/img/error.png" className={myStyles.not_found_img} />
+          <Image
+            src="/img/error.png"
+            alt="not_found_image"
+            width={90}
+            height={90}
+            className={myStyles.not_found_img}
+          />
           <h1 className={myStyles.not_found_title}>{t("notFound.title")}</h1>
           <h4 className={myStyles.not_found_description}>
             {t("notFound.description")}
           </h4>
-          <button className={myStyles.submit}>
-            <Link href="/" className={myStyles.link}>
-              {t("notFound.backhome")}
-            </Link>
-          </button>
+
+          <Link href="/" className={myStyles.submit}>
+            {t("notFound.backhome")}
+          </Link>
         </div>
       </div>
     </div>
