@@ -12,12 +12,8 @@ export default function Home() {
 
   return (
     <>
-      <div
-        className={`fullwidth-container ${styles.fullwidth_container} ${myStyles.fullwidth_container}`}
-      >
-        <div
-          className={`container-center ${styles.container_center} ${myStyles.container_center}`}
-        >
+      <div className={styles.fullwidth_container}>
+        <div className={myStyles.container_center}>
           <div className={myStyles.pageTitle}>
             <img
               src="/img/2019/05/bolt_logo_7.png"

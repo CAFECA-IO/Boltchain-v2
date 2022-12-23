@@ -200,6 +200,7 @@
     height: 40px;
     border: white solid;
     border-radius: 5px;
+    cursor: pointer;
   }
   .burger {
     display: block;

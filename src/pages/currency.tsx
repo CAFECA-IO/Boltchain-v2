@@ -25,7 +25,7 @@ function CurrencyPage() {
                 src="/img/2020/boltcurrency/boltcurrency_logo.png"
                 alt=""
               />
-              <p className={myStyles.line}>__</p>
+              <p className={styles.line}>__</p>
             </figure>
             <h3>{t("currency.block1.title")}</h3>
             <Image
@@ -79,13 +79,14 @@ function CurrencyPage() {
 
           <div className={myStyles.currency_block}>
             <h3>{t("currency.block5.title")}</h3>
-            <p className={myStyles.line}>__</p>
+            <p className={styles.line}>__</p>
             <div className={myStyles.currency_step}>
               <Image
                 src={`${t("currency.block5.image")}`}
                 alt=""
                 width={420}
                 height={280}
+                className={myStyles.currency_image}
               />
               <div className={myStyles.steptext}>
                 <h4>{t("currency.block5.subtitle1")}</h4>
