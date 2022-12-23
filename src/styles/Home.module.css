@@ -1,11 +1,3 @@
-.fullwidth_container {
-  height: 820px;
-  background: url("/img/homepage/shutterstock_697695823-1.jpg") 0% 0% / 100%
-    no-repeat;
-
-  scroll-behavior: smooth;
-}
-
 .container_center {
   padding: 10px 15px;
 }
