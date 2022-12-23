@@ -1,5 +1,4 @@
 import styles from "../styles/index.module.css";
-import myStyles from "../styles/faq.module.css";
 
 import { useTranslation } from "next-i18next";
 import { serverSideTranslations } from "next-i18next/serverSideTranslations";
@@ -13,26 +12,23 @@ function FAQPage() {
 
   const list = contents.map((v) => {
     return (
-      <>
-        <FAQItems
-          key={t(`faq.question${v}`)}
-          que={t(`faq.question${v}`)}
-          ans={t(`faq.answer${v}`)}
-        />
-        <span className={myStyles.hline}></span>
-      </>
+      <FAQItems
+        key={t(`faq.question${v}`)}
+        que={t(`faq.question${v}`)}
+        ans={t(`faq.answer${v}`)}
+      />
     );
   });
 
   return (
     <div>
       <div className={styles.fullwidth_container}>
-        <div className={myStyles.container}>
-          <h1 className={myStyles.page_title}>{t("faq.title")}</h1>
+        <div className={styles.header_container}>
+          <h1 className={styles.page_title}>{t("faq.title")}</h1>
         </div>
 
-        <div className={myStyles.master_container}>
-          <section className={myStyles.page_content}>{list}</section>
+        <div className={styles.master_container}>
+          <section className={styles.page_content}>{list}</section>
         </div>
       </div>
     </div>

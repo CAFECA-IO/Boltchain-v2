@@ -5,6 +5,7 @@ import { serverSideTranslations } from "next-i18next/serverSideTranslations";
 
 import WhyBoltchain from "../components/why";
 import UseCase from "../components/usecase";
+import ContactUsForm from "../components/contactform";
 
 export default function Home() {
   const { t } = useTranslation("common");
@@ -17,7 +18,7 @@ export default function Home() {
         <div
           className={`container-center ${styles.container_center} ${myStyles.container_center}`}
         >
-          <div className={`${styles.pageTitle} ${myStyles.pageTitle}`}>
+          <div className={myStyles.pageTitle}>
             <img
               src="/img/2019/05/bolt_logo_7.png"
               alt="Boltchain_logo_white"
@@ -93,6 +94,12 @@ export default function Home() {
         className={` ${myStyles.container_fluid} ${myStyles.usecase01}`}
       >
         <UseCase />
+      </div>
+
+      <div id="news"></div>
+
+      <div id="contact">
+        <ContactUsForm />
       </div>
     </>
   );
