@@ -338,7 +338,7 @@
     },
     "block4": {
       "title": "Cross-chain Channel (C3)",
-      "description": "`The cross-chain channel uses an intermediary micro-service communication to two blockchains that have a Turing-complete. The micro-service can simultaneously access the information of the two-sided blockchain and has a private key to prevent the processing information from being forged. It converts the data exchange or asset exchange conditions between the two blockchains into executable programming languages, and sets the conditional specification for the cancellation of the transaction, which will be relevant when either blockchain triggers the event.The certificate is submitted to the other party block chain for execution.`",
+      "description": "The cross-chain channel uses an intermediary micro-service communication to two blockchains that have a Turing-complete. The micro-service can simultaneously access the information of the two-sided blockchain and has a private key to prevent the processing information from being forged. It converts the data exchange or asset exchange conditions between the two blockchains into executable programming languages, and sets the conditional specification for the cancellation of the transaction, which will be relevant when either blockchain triggers the event.The certificate is submitted to the other party block chain for execution.",
       "subtitle": "Cross-chain asset exchange :",
       "description2": "The use of cross-chain channel and Layer 2 protocol to transfer assets from other blockchains to the Boltchain system to achieve multi-blockchain value circulation.",
       "image": "/img/2019/08/boltchain_system_04-1.-1.png"
