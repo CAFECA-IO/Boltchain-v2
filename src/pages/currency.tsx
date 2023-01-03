@@ -1,5 +1,5 @@
 import styles from "../styles/index.module.css";
-import myStyles from "../styles/currency.module.css";
+import myStyles from "../styles/currency_trust.module.css";
 import ContactUsForm from "../components/contactform";
 
 import { useTranslation } from "next-i18next";
@@ -19,7 +19,7 @@ function CurrencyPage() {
         <div className={styles.master_container}>
           <div className={styles.page_content}>
             <div className={myStyles.currency_block}>
-              <figure className={myStyles.currency_titlelogo}>
+              <figure className={myStyles.titlelogo}>
                 <Image
                   width={300}
                   height={61}
@@ -34,7 +34,7 @@ function CurrencyPage() {
                 height={380}
                 src={`${t("currency.block1.image2")}`}
                 alt=""
-                className={myStyles.currency_image}
+                className={myStyles.imagebox}
               />
             </div>
 
@@ -81,13 +81,12 @@ function CurrencyPage() {
             <div className={myStyles.currency_block}>
               <h3>{t("currency.block5.title")}</h3>
               <p className={styles.line}>__</p>
-              <div className={myStyles.currency_step}>
+              <div className={myStyles.stepbox}>
                 <Image
                   src={`${t("currency.block5.image")}`}
                   alt=""
                   width={420}
                   height={280}
-                  className={myStyles.currency_image}
                 />
                 <div className={myStyles.steptext}>
                   <h4>{t("currency.block5.subtitle1")}</h4>
