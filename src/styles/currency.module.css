@@ -5,9 +5,8 @@
 
 .currency_block {
   max-width: 100vw;
-  padding-top: 120px;
-  padding-bottom: 120px;
-  font-family: Roboto, Arial, "sans-serif", sans-serif;
+  padding-top: 100px;
+  padding-bottom: 100px;
 }
 
 .currency_block h3 {
