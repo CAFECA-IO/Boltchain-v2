@@ -87,6 +87,7 @@ function CurrencyPage() {
                   alt=""
                   width={420}
                   height={280}
+                  className={myStyles.stepimg}
                 />
                 <div className={myStyles.steptext}>
                   <h4>{t("currency.block5.subtitle1")}</h4>

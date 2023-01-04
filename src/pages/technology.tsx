@@ -62,14 +62,14 @@ function TechnologyPage() {
                   <h3>{t("technology.block2.title")}</h3>
                   <p>{t("technology.block2.description")}</p>
                 </div>
-                <div className={myStyles.imgbox}>
-                  <Image
-                    src={`${t("technology.block2.image")}`}
-                    alt=""
-                    width={500}
-                    height={365}
-                  />
-                </div>
+
+                <Image
+                  src={`${t("technology.block2.image")}`}
+                  alt=""
+                  width={500}
+                  height={365}
+                  className={myStyles.imgbox}
+                />
               </div>
 
               <div className={myStyles.card}>
@@ -77,14 +77,13 @@ function TechnologyPage() {
                   <h3>{t("technology.block3.title")}</h3>
                   <p>{t("technology.block3.description")}</p>
                 </div>
-                <div className={myStyles.imgbox}>
-                  <Image
-                    src={`${t("technology.block3.image")}`}
-                    alt=""
-                    width={500}
-                    height={365}
-                  />
-                </div>
+                <Image
+                  src={`${t("technology.block3.image")}`}
+                  alt=""
+                  width={500}
+                  height={365}
+                  className={myStyles.imgbox}
+                />
               </div>
 
               <div className={myStyles.card}>
@@ -94,14 +93,14 @@ function TechnologyPage() {
                   <h4>{t("technology.block4.subtitle")}</h4>
                   <p>{t("technology.block4.description2")}</p>
                 </div>
-                <div className={myStyles.imgbox}>
-                  <Image
-                    src={`${t("technology.block4.image")}`}
-                    alt=""
-                    width={500}
-                    height={365}
-                  />
-                </div>
+
+                <Image
+                  src={`${t("technology.block4.image")}`}
+                  alt=""
+                  width={500}
+                  height={365}
+                  className={myStyles.imgbox}
+                />
               </div>
             </div>
           </div>

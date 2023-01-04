@@ -4,8 +4,8 @@ import LanguageSwitch from "./language";
 import React, { useState, useEffect } from "react";
 import { useTranslation } from "next-i18next";
 
-import Link from "next/link";
 import Image from "next/image";
+import Link from "next/link";
 
 function MainNavbar() {
   const { t } = useTranslation("common");
@@ -59,47 +59,45 @@ function MainNavbar() {
         <div className={subMenuStyle}>
           <ul>
             <li className={`${myStyles.navitem} ${myStyles.dropdown}`}>
-              <Link
-                href="#"
+              <label
                 className={`${myStyles.navlink} ${myStyles.dropdown_toggle} `}
               >
                 {t("nav.about")}
-              </Link>
+              </label>
               <ul className={myStyles.dropdownMenu}>
                 <li>
-                  <Link href="/#about" className={myStyles.dropdownItem}>
+                  <a href="/#about" className={myStyles.dropdownItem}>
                     {t("nav.aboutLink1")}
-                  </Link>
+                  </a>
                 </li>
                 <li>
-                  <Link href="/#why" className={myStyles.dropdownItem}>
+                  <a href="/#why" className={myStyles.dropdownItem}>
                     {t("nav.aboutLink2")}
-                  </Link>
+                  </a>
                 </li>
                 <li>
-                  <Link href="/#case" className={myStyles.dropdownItem}>
+                  <a href="/#case" className={myStyles.dropdownItem}>
                     {t("nav.aboutLink3")}
-                  </Link>
+                  </a>
                 </li>
                 <li>
-                  <Link href="/#news" className={myStyles.dropdownItem}>
+                  <a href="/#news" className={myStyles.dropdownItem}>
                     {t("nav.aboutLink5")}
-                  </Link>
+                  </a>
                 </li>
                 <li>
-                  <Link href="/#contact" className={myStyles.dropdownItem}>
+                  <a href="/#contact" className={myStyles.dropdownItem}>
                     {t("nav.aboutLink7")}
-                  </Link>
+                  </a>
                 </li>
               </ul>
             </li>
-            <li className={` ${myStyles.navitem} ${myStyles.dropdown}`}>
-              <Link
-                href="#"
+            <li className={`${myStyles.navitem} ${myStyles.dropdown}`}>
+              <label
                 className={`${myStyles.navlink} ${myStyles.dropdown_toggle}`}
               >
                 {t("nav.solution")}
-              </Link>
+              </label>
               <ul className={myStyles.dropdownMenu}>
                 <li>
                   <Link href="/trust" className={myStyles.dropdownItem}>

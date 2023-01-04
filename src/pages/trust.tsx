@@ -116,6 +116,7 @@ function TrustPage() {
                   alt=""
                   width={400}
                   height={400}
+                  className={myStyles.stepimg}
                 />
                 <div className={myStyles.steptext}>
                   <h4>{t("trust.block5.subtitle")}</h4>

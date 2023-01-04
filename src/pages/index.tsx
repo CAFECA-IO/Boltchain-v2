@@ -7,6 +7,8 @@ import Image from "next/image";
 import WhyBoltchain from "../components/why";
 import UseCase from "../components/usecase";
 import ContactUsForm from "../components/contactform";
+import MainNews from "../components/news";
+import Link from "next/link";
 
 export default function Home() {
   const { t } = useTranslation("common");
@@ -24,13 +26,15 @@ export default function Home() {
             />
             <h1 className={styles.page_title}>{t("main.title")}</h1>
             <h1 className={myStyles.subtitle}>{t("main.description")}</h1>
-            <Image
-              src="/img/main/scroll_down_icon.gif"
-              alt=""
-              width={50}
-              height={50}
-              className={myStyles.ls_layer}
-            />
+            <a href="#about">
+              <Image
+                src="/img/main/scroll_down_icon.gif"
+                alt=""
+                width={50}
+                height={50}
+                className={myStyles.ls_layer}
+              />
+            </a>
           </div>
         </div>
       </div>
@@ -51,7 +55,9 @@ export default function Home() {
         <UseCase />
       </div>
 
-      <div id="news"></div>
+      <div id="news" className={myStyles.container_fluid}>
+        <MainNews />
+      </div>
 
       <div id="contact">
         <ContactUsForm />

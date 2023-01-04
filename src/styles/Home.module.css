@@ -16,6 +16,7 @@
   margin-top: 80px;
   margin-bottom: 80px;
   z-index: auto;
+  cursor: pointer;
 }
 
 .container_fluid {
@@ -92,12 +93,6 @@
   color: rgb(86, 86, 86);
 }
 
-.aio_icon i {
-  line-height: inherit;
-}
-.linearicons-power:before {
-  content: "\e7b9";
-}
 .aio_icon,
 .vc_row .aio_icon {
   display: inline-block;
@@ -109,106 +104,6 @@
   -moz-box-sizing: content-box !important;
   -webkit-box-sizing: content-box !important;
   box-sizing: content-box !important;
-}
-.aio_icon_circle {
-  -webkit-border-radius: 50%;
-  border-radius: 50%;
-}
-
-.aio_icon_title {
-  font-size: 16px;
-  margin: 25px 0px 15px;
-  text-align: center;
-}
-.aio_icon_description {
-  text-align: center;
-  color: #565656;
-  font-size: 14px;
-}
-.aio_icon_box {
-  margin-top: 41px;
-}
-.fa-apple:before {
-  content: "\f179";
-}
-.vc_btn3.vc_btn3-size-md.vc_btn3-icon-left:not(.vc_btn3-o-empty) .vc_btn3-icon {
-  left: 20px;
-}
-.vc_btn3.vc_btn3-size-md .vc_btn3-icon {
-  font-size: 16px;
-  height: 14px;
-  line-height: 14px;
-}
-.vc_btn3.vc_btn3-icon-left .vc_btn3-icon,
-.vc_btn3.vc_btn3-icon-right .vc_btn3-icon {
-  display: block;
-  position: absolute;
-  top: 50%;
-  -webkit-transform: translate(0, -50%);
-  -ms-transform: translate(0, -50%);
-  -o-transform: translate(0, -50%);
-  transform: translate(0, -50%);
-}
-.vc_general.vc_btn3 .vc_btn3-icon {
-  vertical-align: top;
-  height: 14px;
-  line-height: 1;
-  font-size: 16px;
-}
-.team-header h2 {
-  font-size: 18px;
-  font-weight: bold;
-  color: #ffffff;
-}
-.col-sm-3 {
-  padding: 0px 25px;
-}
-/*body,
-p,*/
-.lovepost a,
-.widget ul li a,
-.widget p,
-.widget span,
-.widget ul li,
-.the_content ul li,
-.the_content ol li,
-#recentcomments li,
-.custom-widget h4,
-.widget.des_cubeportfolio_widget h4,
-.widget.des_recent_posts_widget h4,
-.custom-widget ul li a,
-/*.aio_icon_description,*/
-li:not(.testimonials-slide),
-.smile_icon_list li .icon_description p {
-  font-family: "Roboto", "Arial", "sans-serif", sans-serif;
-  font-weight: normal;
-  font-size: 15px;
-  /* color: #adb0b8; */
-  margin-bottom: 6px;
-}
-.contact-line {
-  width: 30px;
-  margin-top: 20px;
-  margin-bottom: 30px;
-}
-.fa.fa-footer {
-  background: #595959;
-  color: white;
-  font-size: 15px;
-}
-.fa-footer {
-  font-size: 10px;
-  height: 40px;
-  padding: 12px;
-  width: 40px;
-  text-align: center;
-  text-decoration: none;
-  border-radius: 50%;
-  margin-right: 10px;
-}
-
-.form-group {
-  margin: 10px 0px;
 }
 
 @media (max-width: 769px) {
@@ -224,6 +119,14 @@ li:not(.testimonials-slide),
   .usecaseCard {
     flex-direction: column;
   }
+  .usecaseLink {
+    margin-bottom: 20px;
+  }
+
+  .newsarea {
+    justify-content: center;
+    flex-wrap: wrap;
+  }
 }
 @media (min-width: 768px) and (max-width: 992px) {
   .usecaseTextbox {
@@ -236,6 +139,11 @@ li:not(.testimonials-slide),
   .usecaseCard:nth-child(even) {
     flex-direction: row-reverse;
   }
+
+  .newsarea {
+    justify-content: space-between;
+    flex-wrap: wrap;
+  }
 }
 @media (min-width: 993px) {
   .usecaseTextbox {
@@ -247,6 +155,11 @@ li:not(.testimonials-slide),
   }
   .usecaseCard:nth-child(even) {
     flex-direction: row-reverse;
+  }
+
+  .newsarea {
+    justify-content: space-between;
+    flex-wrap: wrap;
   }
 }
 
@@ -270,12 +183,12 @@ li:not(.testimonials-slide),
   padding-top: 80px;
   padding-bottom: 80px;
   display: flex;
-
   justify-content: center;
   align-items: center;
+}
+.usecaseCard:not(:last-child) {
   border-bottom: 1px solid #ebebeb;
 }
-
 .usecaseImg {
   width: auto;
 }
@@ -293,9 +206,6 @@ li:not(.testimonials-slide),
   line-height: 1.5;
   color: rgb(255, 255, 255);
 }
-.usecaseImg {
-  width: auto;
-}
 .usecaseLink {
   padding: 8px 19px;
   background-color: rgb(0, 53, 91);
@@ -303,7 +213,33 @@ li:not(.testimonials-slide),
   border-radius: 50px;
   color: rgb(255, 255, 255);
   margin-right: 20px;
+  display: inline-block;
 }
 .usecaseLink_icon {
   margin-right: 15px;
+}
+
+.newsarea {
+  padding-top: 80px;
+
+  display: flex;
+}
+.news_ticket {
+  padding-top: 20px;
+  padding-bottom: 20px;
+  display: flex;
+  flex-direction: column;
+  max-width: 360px;
+}
+.news_ticket p {
+  color: rgb(128, 128, 128);
+  font-size: 15px;
+  text-align: left;
+  margin-top: 10px;
+  margin-bottom: 10px;
+}
+.news_ticket h3 {
+  color: rgb(0, 0, 0);
+  font-size: 20px;
+  margin: 0;
 }
