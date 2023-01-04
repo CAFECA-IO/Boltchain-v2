@@ -272,7 +272,7 @@ li:not(.testimonials-slide),
   background-size: cover;
   background-repeat: repeat;
   background-color: rgba(0, 0, 0, 0);
-  background-image: url("/img/2018/09/app_bg-3.jpg");
+  background-image: url("/img/main/usecase_bg.jpg");
   background-attachment: scroll;
 }
 .usecase_theme h1 {

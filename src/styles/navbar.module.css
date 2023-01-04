@@ -41,7 +41,7 @@
   margin-top: 20px;
   margin-bottom: 20px;
 
-  background-image: url("./../../public/img/2019/05/bolt_logo_5.png");
+  background-image: url("./../../public/img/main/bolt_logo_5.png");
   background-repeat: no-repeat;
   background-size: cover;
 }
@@ -139,7 +139,7 @@
 }
 
 .headerNavbarWhite .navlogo {
-  background-image: url("./../../public/img/2019/05/bolt_logo_6.png") !important;
+  background-image: url("./../../public/img/main/bolt_logo_6.png") !important;
   width: 125px !important;
   height: 30px !important;
 }
@@ -154,7 +154,7 @@
     height: 30px !important;
   }
   .headerNavbarWhite .navlogo {
-    background-image: url("./../../public/img/2019/05/bolt_logo_5.png") !important;
+    background-image: url("./../../public/img/main/bolt_logo_5.png") !important;
   }
   .headerNavbarWhite a,
   .headerNavbarWhite .dropdown .navlink {

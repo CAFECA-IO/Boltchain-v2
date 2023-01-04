@@ -7,7 +7,7 @@ function Footer() {
       <div className={styles.footerBar}>
         <Image
           className={styles.footerlogo}
-          src="/img/2019/05/bolt_logo_7.png"
+          src="/img/main/bolt_logo_7.png"
           alt="logo"
           width={150}
           height={36}

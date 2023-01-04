@@ -16,26 +16,23 @@ export default function Home() {
         <div className={myStyles.container_center}>
           <div className={myStyles.pageTitle}>
             <img
-              src="/img/2019/05/bolt_logo_7.png"
+              src="/img/main/bolt_logo_7.png"
               alt="Boltchain_logo_white"
-              className={`slide1-logo ${myStyles.slide1_logo}`}
+              className={myStyles.slide1_logo}
             />
             <h1 className={styles.page_title}>{t("main.title")}</h1>
             <h1 className={myStyles.subtitle}>{t("main.description")}</h1>
             <img
-              src="/img/2018/06/Scroll-Down-icon-Home3.gif"
+              src="/img/main/scroll_down_icon.gif"
               alt=""
-              className={`ls-layer ${myStyles.ls_layer}`}
+              className={myStyles.ls_layer}
             />
           </div>
         </div>
       </div>
-      <div
-        id="about"
-        className="page_content section_page-1513 container-fluid"
-      >
-        <div className={`container ${styles.container} ${myStyles.container}`}>
-          <div className={`vc_row wpb_row vc_row-fluid ${myStyles.vc_row}`}>
+      <div id="about">
+        <div className={`${styles.container} ${myStyles.container}`}>
+          <div className={myStyles.vc_row}>
             <div className="wpb_column vc_column_container vc_col-sm-12">
               <div className="vc_column-inner ">
                 <div className="wpb_wrapper">

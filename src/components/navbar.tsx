@@ -48,7 +48,7 @@ function MainNavbar() {
           <span>
             <Image
               className={myStyles.burger}
-              src="/img/burger_menu.png"
+              src="/img/burger_menu.svg"
               alt=""
               width={35}
               height={35}

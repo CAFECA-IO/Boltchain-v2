@@ -1,7 +1,6 @@
 .fullwidth_container {
   height: auto;
-  background: url("/img/homepage/shutterstock_697695823-1.jpg") 0% 0% / 100%
-    no-repeat;
+  background: url("/img/homepage/banner_bg.jpg") 0% 0% / 100% no-repeat;
   background-size: auto auto !important;
 }
 .header_container {
@@ -185,7 +184,7 @@
     height: 30px !important;
   }
   .headerNavbarWhite .navlogo {
-    background-image: url("./../../public/img/2019/05/bolt_logo_5.png") !important;
+    background-image: url("./../../public/img/main/bolt_logo_5.png") !important;
   }
   #nav-bar {
     display: none;

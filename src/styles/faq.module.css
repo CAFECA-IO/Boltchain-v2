@@ -29,14 +29,14 @@
 
 .ansClose {
   margin-left: 35px;
-  max-height: 0;
+  height: 0;
   overflow: hidden;
   opacity: 0;
   transition: all 0.7s;
 }
 .ansOpen {
   margin-left: 35px;
-  max-height: 120px;
+  height: auto;
   opacity: 1;
   display: block;
   transition: all 0.7s;

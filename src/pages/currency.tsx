@@ -23,7 +23,7 @@ function CurrencyPage() {
                 <Image
                   width={300}
                   height={61}
-                  src="/img/2020/boltcurrency/boltcurrency_logo.png"
+                  src="/img/currency/boltcurrency_logo.png"
                   alt=""
                 />
                 <p className={styles.line}>__</p>
