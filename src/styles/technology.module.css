@@ -1,7 +1,7 @@
 .technology_block {
   max-width: 100vw;
-  padding-top: 120px;
-  padding-bottom: 120px;
+  padding-top: 80px;
+  padding-bottom: 80px;
 }
 .technology_block h3 {
   margin: 0;
@@ -39,13 +39,89 @@
 .technology_table thead th:nth-last-child(1),
 .technology_table tbody td:nth-last-child(1) {
   color: #066eb7;
+  border: black solid;
+  border-width: 0 2px;
+}
+
+.technology_table thead tr:first-of-type th:nth-last-child(1) {
+  border-top: black solid 2px;
+}
+
+.technology_table tbody tr:last-of-type td:nth-last-child(1) {
+  border-bottom: black solid 2px;
+}
+
+.technology_vline {
+  border-top: 1px solid #d6d6d6;
+  display: block;
+  margin: auto;
+  width: 90vw;
+  height: 30px;
+}
+
+.card {
+  width: 90vw;
+  display: flex !important;
+  margin: auto;
+  padding-top: 50px;
+  padding-bottom: 50px;
+}
+.card:not(:last-child) {
+  border-bottom: 1px solid #d6d6d6;
+}
+
+.card h3 {
+  font-weight: 700;
+  font-size: 32px;
+  color: #000;
+  text-align: left;
+}
+.card h4 {
+  font-weight: 700;
+  font-size: 18px;
+  color: #000;
+  text-align: left;
+}
+.card p {
+  line-height: 1.5;
+  color: #000;
+  font-size: 15px;
 }
 
 @media (max-width: 992px) {
+  .technology_table {
+    max-width: 90vw;
+  }
+
+  .card {
+    flex-direction: column;
+    align-content: center;
+  }
+  .textbox {
+    margin-bottom: 40px;
+  }
+  .imgbox {
+    display: block;
+    margin: auto;
+  }
 }
 
 @media (min-width: 992px) {
   .technology_table {
     max-width: 960px;
+  }
+
+  .card:nth-child(odd) {
+    flex-direction: row;
+  }
+  .card:nth-child(odd) .textbox {
+    margin-right: 40px;
+  }
+
+  .card:nth-child(even) {
+    flex-direction: row-reverse;
+  }
+  .card:nth-child(even) .textbox {
+    margin-left: 40px;
   }
 }

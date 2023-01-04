@@ -28,7 +28,7 @@ function FAQPage() {
         </div>
 
         <div className={styles.master_container}>
-          <section className={styles.page_content}>{list}</section>
+          <div className={styles.page_content}>{list}</div>
         </div>
       </div>
     </div>

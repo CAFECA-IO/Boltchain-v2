@@ -102,7 +102,7 @@ function MainNavbar() {
               </Link>
               <ul className={myStyles.dropdownMenu}>
                 <li>
-                  <Link href="/bolt-trust" className={myStyles.dropdownItem}>
+                  <Link href="/trust" className={myStyles.dropdownItem}>
                     {t("nav.trust")}
                   </Link>
                 </li>

@@ -20,10 +20,11 @@
   float: left;
 }
 .page_content {
-  padding: 120px 0px 100px 0px;
+  padding-top: 50px;
   display: flex;
   flex-direction: column;
   background-color: white;
+  font-family: Roboto, Arial, "sans-serif", sans-serif;
 }
 .line {
   text-align: center;

@@ -12,15 +12,14 @@ function FAQItems(props: any) {
     : myStyles.faq_item_plus;
 
   return (
-    <div>
+    <section className={myStyles.faq_block}>
       <div onClick={toggle} className={iconStyle}>
         <h4>{props.que}</h4>
         <div className={answerStyle}>
           <p>{props.ans}</p>
         </div>
       </div>
-      <span className={myStyles.hline}></span>
-    </div>
+    </section>
   );
 }
 export default FAQItems;

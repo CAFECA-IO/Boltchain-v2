@@ -28,7 +28,9 @@ function UseCase() {
           </figure>
           <div className={myStyles.usecaseTextbox}>
             <h2>{t("main.case.title1")}</h2>
-            <p>{t("main.case.description1")}</p>
+            <p>{t("main.case.description1Line1")}</p>
+            <p>{t("main.case.description1Line2")}</p>
+            <p>{t("main.case.description1Line3")}</p>
 
             <Link href="/bolt-trust" className={myStyles.usecaseLink}>
               {t("main.case.linkTitle")}

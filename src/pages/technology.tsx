@@ -53,6 +53,57 @@ function TechnologyPage() {
                 <tbody>{tbody}</tbody>
               </table>
             </div>
+
+            <span className={myStyles.technology_vline}></span>
+
+            <div className={myStyles.technology_block}>
+              <div className={myStyles.card}>
+                <div className={myStyles.textbox}>
+                  <h3>{t("technology.block2.title")}</h3>
+                  <p>{t("technology.block2.description")}</p>
+                </div>
+                <div className={myStyles.imgbox}>
+                  <Image
+                    src={`${t("technology.block2.image")}`}
+                    alt=""
+                    width={500}
+                    height={365}
+                  />
+                </div>
+              </div>
+
+              <div className={myStyles.card}>
+                <div className={myStyles.textbox}>
+                  <h3>{t("technology.block3.title")}</h3>
+                  <p>{t("technology.block3.description")}</p>
+                </div>
+                <div className={myStyles.imgbox}>
+                  <Image
+                    src={`${t("technology.block3.image")}`}
+                    alt=""
+                    width={500}
+                    height={365}
+                  />
+                </div>
+              </div>
+
+              <div className={myStyles.card}>
+                <div className={myStyles.textbox}>
+                  <h3>{t("technology.block4.title")}</h3>
+                  <p>{t("technology.block4.description")}</p>
+                  <h4>{t("technology.block4.subtitle")}</h4>
+                  <p>{t("technology.block4.description2")}</p>
+                </div>
+                <div className={myStyles.imgbox}>
+                  <Image
+                    src={`${t("technology.block4.image")}`}
+                    alt=""
+                    width={500}
+                    height={365}
+                  />
+                </div>
+              </div>
+            </div>
           </div>
         </div>
       </div>
