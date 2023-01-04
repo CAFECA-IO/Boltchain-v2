@@ -9,22 +9,22 @@
   border-bottom: #aaa 1px solid;
 }
 
-.faq_item_plus h4,
-.faq_item_minus h4 {
-  display: inline;
+.anstext {
+  display: inline-block;
   font-size: 16px;
   font-weight: 500;
   text-align: left;
-  margin-left: 20px;
+  margin: 3px 0 0 40px;
 }
 .faq_item_minus::before {
   content: "\2796";
-  float: left;
+  font-size: 16px;
+  position: absolute;
 }
 .faq_item_plus::before {
   content: "\02795";
   font-size: 16px;
-  float: left;
+  position: absolute;
 }
 
 .ansClose {

@@ -1,6 +1,5 @@
 .container {
   width: 100vw;
-  height: 100%;
   padding-top: 120px;
   padding-bottom: 20px;
   text-align: center;
@@ -53,7 +52,12 @@
   }
 }
 @media (min-width: 993px) {
+  .container {
+    height: 100vh;
+    padding-bottom: 230px;
+  }
   .not_found_jumbotron {
     padding: 100px;
+    height: calc(100vh - 230px);
   }
 }

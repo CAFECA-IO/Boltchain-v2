@@ -1,7 +1,8 @@
 .fullwidth_container {
+  width: 100vw;
   height: auto;
-  background: url("/img/homepage/banner_bg.jpg") 0% 0% / 100% no-repeat;
-  background-size: auto auto !important;
+  background: url("/img/homepage/banner_bg.jpg") 0% 0% / 100% repeat;
+  background-size: auto auto;
 }
 .header_container {
   padding: 150px 15px;
@@ -41,17 +42,8 @@
   position: fixed;
   width: 100%;
 }
-@media (max-width: 576px) {
-  .bg_info {
-    padding-right: 35px;
-  }
-}
 
-.container_fluid,
-.container_lg,
-.container_md,
-.container_sm,
-.container_xl {
+.container_fluid {
   width: 100%;
   padding-right: 0px;
   padding-left: 0px;
@@ -175,7 +167,13 @@
   width: 125px !important;
   height: 30px !important;
 }
-@media (max-width: 992px) {
+
+@media (max-width: 768px) {
+  .bg_info {
+    padding-right: 35px;
+  }
+}
+@media (min-width: 769px) and(max-width: 992px) {
   .headerNavbar {
     background-color: #1c2336 !important;
   }
@@ -186,23 +184,8 @@
   .headerNavbarWhite .navlogo {
     background-image: url("./../../public/img/main/bolt_logo_5.png") !important;
   }
-  #nav-bar {
-    display: none;
-  }
-  .nav-single-item {
-    padding: 5px 0px 15px 5px;
-  }
-  .wpb_wrapper {
-    padding: 0px 10px;
-  }
 }
-.bolck1-title {
-  margin-top: 170px;
-  margin-bottom: 10px;
-}
-.th {
-  font-weight: normal;
-}
+
 .html {
   scroll-behavior: smooth;
 }
