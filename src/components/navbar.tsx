@@ -145,7 +145,7 @@ function MainNavbar() {
             <div className={myStyles.navbarline}></div>
 
             <li>
-              <LanguageSwitch />
+              <LanguageSwitch toggleHandler={toggleNavbar} />
             </li>
           </ul>
         </div>

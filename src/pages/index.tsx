@@ -2,13 +2,13 @@ import styles from "../styles/index.module.css";
 import myStyles from "../styles/Home.module.css";
 import { useTranslation } from "next-i18next";
 import { serverSideTranslations } from "next-i18next/serverSideTranslations";
-import Image from "next/image";
 
 import WhyBoltchain from "../components/why";
 import UseCase from "../components/usecase";
 import ContactUsForm from "../components/contactform";
 import MainNews from "../components/news";
 import Link from "next/link";
+import Image from "next/image";
 
 export default function Home() {
   const { t } = useTranslation("common");
