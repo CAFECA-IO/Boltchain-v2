@@ -9,6 +9,29 @@ import Image from "next/image";
 function CurrencyPage() {
   const { t } = useTranslation("common");
 
+  //block2
+  const contents = [1, 2, 3];
+  const introItem = contents.map((v) => {
+    return (
+      <div className={myStyles.intro_ticket}>
+        <Image
+          src={t(`currency.block2.image${v}`) || ""}
+          alt=""
+          width={80}
+          height={80}
+        />
+        <h3>{t(`currency.block2.subtitle${v}`)}</h3>
+        <p>{t(`currency.block2.description${v}`)}</p>
+      </div>
+    );
+  });
+
+  //block5 steps
+  const steps = [1, 2, 3, 4, 5];
+  const stepItem = steps.map((v) => {
+    return <li>{t(`currency.block5.li${v}`)}</li>;
+  });
+
   return (
     <>
       <div className={styles.fullwidth_container}>
@@ -42,40 +65,7 @@ function CurrencyPage() {
               <h3>{t("currency.block2.title")}</h3>
               <p>__</p>
 
-              <div className={myStyles.currency_intro}>
-                <div className={myStyles.intro_ticket}>
-                  <Image
-                    src={`${t("currency.block2.image1")}`}
-                    alt=""
-                    width={80}
-                    height={80}
-                  />
-                  <h3>{t("currency.block2.subtitle1")}</h3>
-                  <p>{t("currency.block2.description1")}</p>
-                </div>
-
-                <div className={myStyles.intro_ticket}>
-                  <Image
-                    src={`${t("currency.block2.image2")}`}
-                    alt=""
-                    width={80}
-                    height={80}
-                  />
-                  <h3>{t("currency.block2.subtitle2")}</h3>
-                  <p>{t("currency.block2.description2")}</p>
-                </div>
-
-                <div className={myStyles.intro_ticket}>
-                  <Image
-                    src={`${t("currency.block2.image3")}`}
-                    alt=""
-                    width={80}
-                    height={80}
-                  />
-                  <h3>{t("currency.block2.subtitle3")}</h3>
-                  <p>{t("currency.block2.description3")}</p>
-                </div>
-              </div>
+              <div className={myStyles.currency_intro}>{introItem}</div>
             </div>
 
             <div className={myStyles.currency_block}>
@@ -91,13 +81,7 @@ function CurrencyPage() {
                 />
                 <div className={myStyles.steptext}>
                   <h4>{t("currency.block5.subtitle1")}</h4>
-                  <ul>
-                    <li>{t("currency.block5.li1")}</li>
-                    <li>{t("currency.block5.li2")}</li>
-                    <li>{t("currency.block5.li3")}</li>
-                    <li>{t("currency.block5.li4")}</li>
-                    <li>{t("currency.block5.li5")}</li>
-                  </ul>
+                  <ul>{stepItem}</ul>
                   <h4>{t("currency.block5.subtitle2")}</h4>
                 </div>
               </div>

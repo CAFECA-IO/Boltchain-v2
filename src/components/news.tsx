@@ -4,6 +4,7 @@ import { useTranslation } from "next-i18next";
 import { serverSideTranslations } from "next-i18next/serverSideTranslations";
 
 import Image from "next/image";
+import Link from "next/link";
 
 function MainNews() {
   const { t } = useTranslation("common");
@@ -12,7 +13,7 @@ function MainNews() {
   const news = contents.map((v) => {
     return (
       <div className={myStyles.news_ticket}>
-        <a href={t(`main.news.post${v}.link`) || ""}>
+        <Link href={t(`main.news.post${v}.link`) || ""}>
           <Image
             src={t(`main.news.post${v}.image`) || "/img/loading_icon.gif"}
             alt={t(`main.news.post${v}.title`) || "notfound"}
@@ -22,7 +23,7 @@ function MainNews() {
 
           <p>{t(`main.news.post${v}.time`)}</p>
           <h3>{t(`main.news.post${v}.title`)}</h3>
-        </a>
+        </Link>
       </div>
     );
   });

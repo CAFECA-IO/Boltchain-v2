@@ -66,8 +66,8 @@
 .intro_ticket {
   display: block;
   text-align: center;
+  padding: 20px;
   margin: 0;
-  margin-left: 20px;
 }
 .brandicon {
   margin: auto;

@@ -26,7 +26,7 @@ export default function Home() {
             />
             <h1 className={styles.page_title}>{t("main.title")}</h1>
             <h1 className={myStyles.subtitle}>{t("main.description")}</h1>
-            <a href="#about">
+            <Link href="#about">
               <Image
                 src="/img/main/scroll_down_icon.gif"
                 alt=""
@@ -34,7 +34,7 @@ export default function Home() {
                 height={50}
                 className={myStyles.ls_layer}
               />
-            </a>
+            </Link>
           </div>
         </div>
       </div>

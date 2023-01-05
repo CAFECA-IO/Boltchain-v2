@@ -4,7 +4,7 @@ import myStyles from "../styles/navbar.module.css";
 
 const LanguageSwitch = () => {
   const router = useRouter();
-  const { pathname, query } = router;
+  //const { pathname, query } = router;
 
   const lang: string = router.locale === "en" ? "English" : "繁中";
 
