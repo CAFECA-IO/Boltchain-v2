@@ -9,36 +9,25 @@ import { faFlickr } from "@fortawesome/free-brands-svg-icons";
 function WhyBoltchain() {
   const { t } = useTranslation("common");
 
+  const contents = [1, 2, 3];
+  const introItem = contents.map((v) => {
+    return (
+      <div className={myStyles.intro_ticket}>
+        <span className={myStyles.iconbox}>
+          <FontAwesomeIcon icon={faFlickr} className={myStyles.brandicon} />
+        </span>
+        <h3>{t(`main.why.title${v}`)}</h3>
+        <p>{t(`main.why.description${v}`)}</p>
+      </div>
+    );
+  });
+
   return (
     <div className={myStyles.main_block}>
       <h1>{t("main.why.title")}</h1>
       <p className={styles.line}>__</p>
 
-      <div className={myStyles.why_intro}>
-        <div className={myStyles.intro_ticket}>
-          <span className={myStyles.iconbox}>
-            <FontAwesomeIcon icon={faFlickr} className={myStyles.brandicon} />
-          </span>
-          <h3>{t("main.why.title1")}</h3>
-          <p>{t("main.why.description1")}</p>
-        </div>
-
-        <div className={myStyles.intro_ticket}>
-          <span className={myStyles.iconbox}>
-            <FontAwesomeIcon icon={faFlickr} className={myStyles.brandicon} />
-          </span>
-          <h3>{t("main.why.title3")}</h3>
-          <p>{t("main.why.description3")}</p>
-        </div>
-
-        <div className={myStyles.intro_ticket}>
-          <span className={myStyles.iconbox}>
-            <FontAwesomeIcon icon={faFlickr} className={myStyles.brandicon} />
-          </span>
-          <h3>{t("main.why.title4")}</h3>
-          <p>{t("main.why.description4")}</p>
-        </div>
-      </div>
+      <div className={myStyles.why_intro}>{introItem}</div>
     </div>
   );
 }

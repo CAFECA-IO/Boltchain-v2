@@ -2,13 +2,13 @@ import styles from "../styles/index.module.css";
 import myStyles from "../styles/Home.module.css";
 import { useTranslation } from "next-i18next";
 import { serverSideTranslations } from "next-i18next/serverSideTranslations";
-import Image from "next/image";
 
 import WhyBoltchain from "../components/why";
 import UseCase from "../components/usecase";
 import ContactUsForm from "../components/contactform";
 import MainNews from "../components/news";
 import Link from "next/link";
+import Image from "next/image";
 
 export default function Home() {
   const { t } = useTranslation("common");
@@ -26,7 +26,7 @@ export default function Home() {
             />
             <h1 className={styles.page_title}>{t("main.title")}</h1>
             <h1 className={myStyles.subtitle}>{t("main.description")}</h1>
-            <a href="#about">
+            <Link href="#about">
               <Image
                 src="/img/main/scroll_down_icon.gif"
                 alt=""
@@ -34,7 +34,7 @@ export default function Home() {
                 height={50}
                 className={myStyles.ls_layer}
               />
-            </a>
+            </Link>
           </div>
         </div>
       </div>

@@ -10,11 +10,13 @@ import Link from "next/link";
 function MainNavbar() {
   const { t } = useTranslation("common");
 
+  //collapse選單收合
   const [showSubMenu, setShowSubMenu] = useState(false);
   const toggleNavbar = () => setShowSubMenu(!showSubMenu);
 
   const subMenuStyle = showSubMenu ? myStyles.showMenu : myStyles.collapseMenu;
 
+  //根據scroll位置更改navbar樣式為white
   const [scroll, setScroll] = useState(0);
   const handleScroll = () => {
     const position = window.pageYOffset;
@@ -30,6 +32,32 @@ function MainNavbar() {
 
   const scrollMenuStyle =
     scroll >= 200 ? myStyles.headerNavbarWhite : myStyles.headerNavbar;
+
+  //'關於'下拉選單
+  const contents = [1, 2, 3, 5, 7];
+  const links = [
+    "/",
+    "/#about",
+    "/#why",
+    "/#case",
+    "/",
+    "/#news",
+    "/",
+    "/#contact",
+  ];
+  const aboutList = contents.map((v) => {
+    return (
+      <li>
+        <Link
+          href={links[`${v}`] || ""}
+          onClick={toggleNavbar}
+          className={myStyles.dropdownItem}
+        >
+          {t(`nav.aboutLink${v}`)}
+        </Link>
+      </li>
+    );
+  });
 
   return (
     <>
@@ -56,7 +84,7 @@ function MainNavbar() {
           </span>
         </label>
 
-        <div className={subMenuStyle}>
+        <div id="subMenu" className={subMenuStyle}>
           <ul>
             <li className={`${myStyles.navitem} ${myStyles.dropdown}`}>
               <label
@@ -64,34 +92,9 @@ function MainNavbar() {
               >
                 {t("nav.about")}
               </label>
-              <ul className={myStyles.dropdownMenu}>
-                <li>
-                  <a href="/#about" className={myStyles.dropdownItem}>
-                    {t("nav.aboutLink1")}
-                  </a>
-                </li>
-                <li>
-                  <a href="/#why" className={myStyles.dropdownItem}>
-                    {t("nav.aboutLink2")}
-                  </a>
-                </li>
-                <li>
-                  <a href="/#case" className={myStyles.dropdownItem}>
-                    {t("nav.aboutLink3")}
-                  </a>
-                </li>
-                <li>
-                  <a href="/#news" className={myStyles.dropdownItem}>
-                    {t("nav.aboutLink5")}
-                  </a>
-                </li>
-                <li>
-                  <a href="/#contact" className={myStyles.dropdownItem}>
-                    {t("nav.aboutLink7")}
-                  </a>
-                </li>
-              </ul>
+              <ul className={myStyles.dropdownMenu}>{aboutList}</ul>
             </li>
+
             <li className={`${myStyles.navitem} ${myStyles.dropdown}`}>
               <label
                 className={`${myStyles.navlink} ${myStyles.dropdown_toggle}`}
@@ -100,12 +103,20 @@ function MainNavbar() {
               </label>
               <ul className={myStyles.dropdownMenu}>
                 <li>
-                  <Link href="/trust" className={myStyles.dropdownItem}>
+                  <Link
+                    href="/trust"
+                    onClick={toggleNavbar}
+                    className={myStyles.dropdownItem}
+                  >
                     {t("nav.trust")}
                   </Link>
                 </li>
                 <li>
-                  <Link href="/currency" className={myStyles.dropdownItem}>
+                  <Link
+                    href="/currency"
+                    onClick={toggleNavbar}
+                    className={myStyles.dropdownItem}
+                  >
                     {t("nav.currency")}
                   </Link>
                 </li>
@@ -113,12 +124,20 @@ function MainNavbar() {
             </li>
 
             <li className={myStyles.nav_single_item}>
-              <Link href="/technology" className={myStyles.navlink}>
+              <Link
+                href="/technology"
+                onClick={toggleNavbar}
+                className={myStyles.navlink}
+              >
                 {t("nav.technology")}
               </Link>
             </li>
             <li className={myStyles.nav_single_item}>
-              <Link href="/FAQ" className={myStyles.navlink}>
+              <Link
+                href="/FAQ"
+                onClick={toggleNavbar}
+                className={myStyles.navlink}
+              >
                 {t("nav.faq")}
               </Link>
             </li>
@@ -126,7 +145,7 @@ function MainNavbar() {
             <div className={myStyles.navbarline}></div>
 
             <li>
-              <LanguageSwitch />
+              <LanguageSwitch toggleHandler={toggleNavbar} />
             </li>
           </ul>
         </div>

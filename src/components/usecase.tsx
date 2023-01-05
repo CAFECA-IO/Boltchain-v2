@@ -70,14 +70,20 @@ function UseCase() {
             <h2>{t("main.case.title3")}</h2>
             <p>{t("main.case.description3")}</p>
 
-            <Link href="/trust" className={myStyles.usecaseLink}>
+            <Link
+              href="https://itunes.apple.com/us/app/pingpay/id1436669171?mt=8"
+              className={myStyles.usecaseLink}
+            >
               <FontAwesomeIcon
                 icon={faApple}
                 className={myStyles.usecaseLink_icon}
               />
               {t("main.case.linkTitle2")}
             </Link>
-            <Link href="/trust" className={myStyles.usecaseLink}>
+            <Link
+              href="https://play.google.com/store/apps/details?id=com.isuncloud.pingpaywallet"
+              className={myStyles.usecaseLink}
+            >
               <FontAwesomeIcon
                 icon={faAndroid}
                 className={myStyles.usecaseLink_icon}
@@ -102,14 +108,20 @@ function UseCase() {
             <p>{t("main.case.description4Line1")}</p>
             <p>{t("main.case.description4Line2")}</p>
 
-            <Link href="/trust" className={myStyles.usecaseLink}>
+            <Link
+              href="https://itunes.apple.com/tw/app/rockme-%E5%85%A8%E6%96%B0%E6%B6%88%E8%B2%BB%E9%AB%94%E9%A9%97%E5%84%AA%E6%83%A0%E5%B9%B3%E5%8F%B0/id1450221445?mt=8"
+              className={myStyles.usecaseLink}
+            >
               <FontAwesomeIcon
                 icon={faApple}
                 className={myStyles.usecaseLink_icon}
               />
               {t("main.case.linkTitle2")}
             </Link>
-            <Link href="/trust" className={myStyles.usecaseLink}>
+            <Link
+              href="https://play.google.com/store/apps/details?id=com.isuncloud.rockme"
+              className={myStyles.usecaseLink}
+            >
               <FontAwesomeIcon
                 icon={faAndroid}
                 className={myStyles.usecaseLink_icon}
