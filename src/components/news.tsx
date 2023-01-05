@@ -12,15 +12,17 @@ function MainNews() {
   const news = contents.map((v) => {
     return (
       <div className={myStyles.news_ticket}>
-        <Image
-          src={t(`main.news.post${v}.image`) || "/img/loading_icon.gif"}
-          alt={t(`main.news.post${v}.title`) || "notfound"}
-          width={360}
-          height={270}
-        />
+        <a href={t(`main.news.post${v}.link`) || ""}>
+          <Image
+            src={t(`main.news.post${v}.image`) || "/img/loading_icon.gif"}
+            alt={t(`main.news.post${v}.title`) || "notfound"}
+            width={360}
+            height={270}
+          />
 
-        <p>{t(`main.news.post${v}.time`)}</p>
-        <h3>{t(`main.news.post${v}.title`)}</h3>
+          <p>{t(`main.news.post${v}.time`)}</p>
+          <h3>{t(`main.news.post${v}.title`)}</h3>
+        </a>
       </div>
     );
   });

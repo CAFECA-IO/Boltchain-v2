@@ -1,8 +1,6 @@
 .fullwidth_container {
   width: 100vw;
-  height: auto;
-  background: url("/img/homepage/banner_bg.jpg") 0% 0% / 100% repeat;
-  background-size: auto auto;
+  background: url("/img/homepage/banner_bg.jpg") no-repeat 0% / cover;
 }
 .header_container {
   padding: 150px 15px;

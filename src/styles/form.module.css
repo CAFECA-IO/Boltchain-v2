@@ -1,5 +1,6 @@
 .form_main {
   background-image: url("/img/form_bg.jpg");
+  background-size: cover;
   padding-top: 120px;
   padding-bottom: 120px;
   font-size: 25px;
@@ -20,29 +21,34 @@
 .form_content {
   padding-left: 60px;
   padding-right: 60px;
-
+  margin: auto;
   display: flex;
   align-items: baseline;
 }
 
-@media (max-width: 992px) {
+@media (max-width: 768px) {
   .form_content {
     flex-direction: column;
   }
   .contact_area,
   .form_area {
     margin: auto;
+    margin-top: 20px;
     max-width: 100vw;
   }
-  .form_area {
-    margin: 20px 20px 0 20px;
-  }
 }
-
-@media (min-width: 992px) {
+@media (min-width: 769px) and (max-width: 992px) {
+  .form_content {
+    max-width: 100vw;
+  }
   .contact_area,
   .form_area {
     max-width: 450px;
+  }
+}
+@media (min-width: 993px) {
+  .form_content {
+    max-width: 70vw;
   }
 }
 
