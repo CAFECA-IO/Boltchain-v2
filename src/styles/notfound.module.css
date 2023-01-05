@@ -1,24 +1,18 @@
-.container_fluid {
-  width: 100vw;
-  height: 910px;
-  background-color: #292c3f;
-}
 .container {
+  width: 100vw;
   padding-top: 120px;
+  padding-bottom: 20px;
   text-align: center;
-  width: 100%;
+  background-color: #292c3f;
 }
 
 .not_found_jumbotron {
-  width: 74vw;
-  height: 670px;
+  width: 75vw;
   background-color: white;
   border-radius: 10px;
   display: inline-block;
 }
-.not_found_img {
-  margin-top: 140px;
-}
+
 .not_found_title {
   margin-top: 45px;
 }
@@ -36,4 +30,34 @@
   text-decoration: none;
   color: white;
   display: inline-block;
+}
+
+@media (max-width: 768px) {
+  .not_found_jumbotron {
+    padding: 100px 0 100px 0;
+  }
+
+  .not_found_title {
+    font-size: 20px;
+  }
+
+  .not_found_description {
+    font-size: 15px;
+  }
+}
+
+@media (min-width: 769px) and (max-width: 992px) {
+  .not_found_jumbotron {
+    padding: 100px;
+  }
+}
+@media (min-width: 993px) {
+  .container {
+    height: 100vh;
+    padding-bottom: 230px;
+  }
+  .not_found_jumbotron {
+    padding: 100px;
+    height: calc(100vh - 230px);
+  }
 }

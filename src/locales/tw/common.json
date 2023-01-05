@@ -16,7 +16,7 @@
     "faq": "常見問題"
   },
   "main": {
-    "logo": "/img/2019/05/bolt_logo_7.png",
+    "logo": "/img/main/bolt_logo_7.png",
     "title": "實現資產上鏈移轉的混合型公鏈技術",
     "description": "以區塊鏈提升企業信任價值",
     "about": {
@@ -45,47 +45,47 @@
       "description1Line2": "在商品生產與銷售過程中，透過授權密鑰來控制寫入者身份，能減少供應鏈欺瞞現象並確保品牌商可有效地追蹤商品流向。",
       "description1Line3": "我們並設計了商品存證證書、區塊鏈瀏覽器，透過友好的用戶介面幫助您的客戶了解產品履歷、確認真偽，最終提升您的企業信任度。",
       "linkTitle": "詳細介紹",
-      "image1": "/img/2019/07/bolttrust_3.png",
+      "image1": "/img/trust/bolttrust_3.png",
       "title2": "交易資料上鏈 - TATM",
       "description2": "TATM為香港聯交所上市公司 - 環球通證推出的數字貨幣販賣機，為了確保交易記錄安全、不由單一實體篡改，採用 Boltchain 的資料信任服務(Bolt Trust)，透過 Boltchain 跨鏈協議將每一筆交易紀錄同時寫入以太坊和比特網，讓證據獲得全球共識保障，並能滿足事後稽核需求。",
-      "image2": "/img/2019/05/tatm.png",
+      "image2": "/img/main/tatm.png",
       "title3": "數字貨幣支付 - PingPay",
       "description3": "PingPay 為基於 BOLT 技術的微支付錢包，能展示 Boltchain「交易即時、零手續費、全球共識為信任基礎」三大特色。產品定位上，PingPay 作技術展示使用，亦作為提供客戶區塊鏈解決方案中的支付功能模塊，能依客戶需求進行客製化方案。",
-      "image3": "/img/2019/03/pingpay_02-1.png",
+      "image3": "/img/main/pingpay_02-1.png",
       "linkTitle2": " AppStore 下載 ",
       "linkTitle3": " Google Play 下載 ",
       "title4": "代幣激勵行銷 - Rock Me",
       "description4Line1": "RockMe 是一個以數字貨幣激勵用戶的廣告系統。",
       "description4Line2": "對於廣告主而言，可即時發放小額且高頻率的數字貨幣（獎勵金），透過 Boltchain技術可完成零手續費的微支付，使廣告符合經濟效益。而用戶可將獎勵金用於線上及線下商家換取商品及服務。",
-      "image4": "/img/2019/03/rockme_2-1.png",
+      "image4": "/img/main/rockme_2-1.png",
       "title5": "金融商品發幣 - 基金平台",
       "description5": "此項目為一AI 理財及基金投資平台，使用 Boltchain 的貨幣發行功能(Bolt Currency)將各種基金通證化。Bolt Currency 能便利地透過 Boltchain 金融加速器實現瞬時支付，同時以區塊鏈紀錄客戶基金交易過程，幫助金融商品平台與客戶建立信任，也能配合法規監管需求。",
-      "image5": "/img/2019/05/bolt_02-2.png"
+      "image5": "/img/main/bolt_02-2.png"
     },
     "news": {
       "title": "最新消息",
       "post1": {
         "title": "什麼是閃電鏈 Boltchain?",
         "time": "20 DEC 2019",
-        "image": "/img/2019/05/news_05-1.jpg",
+        "image": "/img/main/news_05-1.jpg",
         "link": "https://medium.com/boltchain/%E4%BB%80%E9%BA%BC%E6%98%AF%E9%96%83%E9%9B%BB%E9%8F%88-boltchain-77244024bbef"
       },
       "post2": {
         "title": "Boltchain and Its Pioneering Role in Decentralizing the Global Business",
         "time": "23 AUG 2019",
-        "image": "/img/2019/08/news_08-1.jpg",
+        "image": "/img/main/news_08-1.jpg",
         "link": "https://medium.com/tideisun/boltchain-and-its-pioneering-role-in-decentralizing-the-global-business-9a7465634455"
       },
       "post3": {
         "title": "維港區塊鏈來台舉辦投資沙龍，高度評價泰德陽光集團 Boltchain 技術",
         "time": "25 MAR 2019",
-        "image": "/img/2019/05/news_04-1.jpg",
+        "image": "/img/main/news_04-1.jpg",
         "link": "https://suntv.io/2019/03/25/%E7%B6%AD%E6%B8%AF%E5%8D%80%E5%A1%8A%E9%8F%88%E4%BE%86%E5%8F%B0%E8%88%89%E8%BE%A6%E6%8A%95%E8%B3%87%E6%B2%99%E9%BE%8D-%E7%9B%B8%E4%B8%AD%E6%B3%B0%E5%BE%B7%E9%99%BD%E5%85%89%E9%9B%86%E5%9C%98bolt/?fbclid=IwAR0WytR-FGdWLfyOodlHFMF3KI5SPmbfyUSFmfvUgwo9bzNTsndkPf1JLCw"
       },
       "post4": {
         "title": "區塊鏈即時支付系統 號稱做到秒支秒付",
         "time": "07 DEC 2018",
-        "image": "/img/2019/05/news_03-1.jpg",
+        "image": "/img/main/news_03-1.jpg",
         "link": "https://www.indosatu.net/video-news/watch/6R3Nfq0NBSE/%E5%8D%B3%E6%99%82%E5%BD%B1%E9%9F%B3-%E5%8D%80%E5%A1%8A%E9%8F%88%E5%8D%B3%E6%99%82%E6%94%AF%E4%BB%98%E7%B3%BB%E7%B5%B1-%E8%99%9F%E7%A8%B1%E5%81%9A%E5%88%B0%E7%A7%92%E6%94%AF%E7%A7%92%E4%BB%98/"
       }
     },
@@ -159,32 +159,32 @@
     "title": "Bolt Trust 商品認證追溯",
     "block1": {
       "title": "商品溯源服務 - 應用區塊鏈技術的商品認證與追溯方案",
-      "image1": "/img/2019/07/bolttrust_b-1.png",
-      "image2": "/img/2019/07/bolttrust_map_tw-2.png"
+      "image1": "/img/trust/bolttrust_title.png",
+      "image2": "/img/trust/bolttrust_map_tw.png"
     },
     "block2": {
       "title": "商品消費糾紛？作假掉包？不用再擔心源頭難以追溯",
-      "image1": "/img/2019/07/boltrust_icon_01.png",
+      "image1": "/img/trust/boltrust_icon_01.png",
       "subtitle1": "高效上鏈",
       "description1": "大量商品資料與交易紀錄，能以極低成本上多條公鏈存證",
-      "image2": "/img/2019/07/boltrust_icon_02.png",
+      "image2": "/img/trust/boltrust_icon_02.png",
       "subtitle2": "資料可信",
       "description2": "用授權金鑰管控寫入者身份，確保產銷記錄可追溯，打通各環節間信任",
-      "image3": "/img/2019/07/boltrust_icon_03.png",
+      "image3": "/img/trust/boltrust_icon_03.png",
       "subtitle3": "介面友善",
       "description3": "友善的區塊鏈瀏覽介面與存證證書，幫助消費者理解商品溯源履歷"
     },
     "block3": {
       "title": "追溯服務導入流程",
-      "image": "/img/2019/08/boltchain_graphic_2-1.png"
+      "image": "/img/trust/bolttrust_graphic_tw.png"
     },
     "block4": {
       "title": "商品區塊鏈證書",
-      "image": "/img/2019/08/devices_mockups-free-1.png"
+      "image": "/img/trust/devices_mockups-free-1.png"
     },
     "block5": {
       "title": "消費者鑑真步驟",
-      "image": "/img/2019/08/8-2.png",
+      "image": "/img/trust/8_tw.png",
       "subtitle": "只要看到 Bolt Trust Certificate 證書即表示此為真品，反之可能為贗品，驗證流程為：",
       "li1": "使用手機掃描 QRCode 或者 NFC Tag",
       "li2": "自動查驗 Boltchain 上的商品證號",
@@ -217,24 +217,24 @@
     "title": "Bolt Currency 數字貨幣發行",
     "block1": {
       "title": "發行數字貨幣 - 應用閃電鑄幣(Bolt Token)輕鬆實現代幣經濟",
-      "image1": "/img/2020/boltcurrency/boltcurrency_logo.png",
-      "image2": "/img/2020/boltcurrency/currency_flow_tc.png"
+      "image1": "/img/currency/boltcurrency_logo.png",
+      "image2": "/img/currency/currency_flow_tc.png"
     },
     "block2": {
       "title": "Bolt Token 為你帶來靈活用途，打造代幣經濟更容易",
-      "image1": "/img/2020/boltcurrency/boltcurrency_01.png",
+      "image1": "/img/currency/boltcurrency_01.png",
       "subtitle1": "虛擬點數",
       "description1": "用 Bolt Token 實現點數經濟，點數之間可自由交換，透過區塊鏈錢包交易。",
-      "image2": "/img/2020/boltcurrency/boltcurrency_02.png",
+      "image2": "/img/currency/boltcurrency_02.png",
       "subtitle2": "資產活化",
       "description2": "將你的商品或資產代幣化，以智能合約管理，滿足眾籌或切割販售等不同商業需要。",
-      "image3": "/img/2020/boltcurrency/boltcurrency_03.png",
+      "image3": "/img/currency/boltcurrency_03.png",
       "subtitle3": "連結區塊鏈",
       "description3": "使用 Bolt Token 即包含發行、交易、支付都連結區塊鏈，輕鬆將你的應用與區塊鏈整合。"
     },
     "block3": {
       "title": "Bolt Currency 服務導入流程",
-      "image": "/img/2019/08/boltchain_graphic_2-1.png"
+      "image": "/img/currency/boltchain_graphic_2-1.png"
     },
     "block4": {
       "title": "貨幣發行合約",
@@ -242,7 +242,7 @@
     },
     "block5": {
       "title": "代幣發行管理步驟",
-      "image": "/img/2020/boltcurrency/currency_step.png",
+      "image": "/img/currency/currency_step.png",
       "subtitle1": "透過 Boltchain 服務平台的 Currency 服務，只要 5 步驟：",
       "li1": "選擇新發行或增發",
       "li2": "指定你的代幣名稱、發行數量、圖片",
@@ -329,19 +329,19 @@
     "block2": {
       "title": "技術原理",
       "description": "Boltchain 是以 Layer 2 protocal 方式，將數筆交易的鏈下證據，經過壓縮形成加密雜湊值，通過 跨鏈協議 上到 Ethereum、Bitcoin 等公鏈。藉此解決公鏈交易速度慢、延展性不足問題。",
-      "image": "/img/2019/09/technology_01_01.png"
+      "image": "/img/technology/technology_01_tw.png"
     },
     "block3": {
       "title": "混合鏈證據",
       "description": "Boltchain 將可閱讀的資料分解為多筆 Transaction 紀錄，以雜湊演算法使用 Indexed Merkle Tree 將之抽象形成區塊鏈證據，並將此最終證據 (root hash形式) 同時保留至 Ethereum、Bitcoin等複數個公鏈，證據保存之安全性會隨證據發布的公鏈數量指數性成長。",
-      "image": "/img/2019/07/technology_02.png"
+      "image": "/img/technology/technology_02.png"
     },
     "block4": {
       "title": "跨鏈通訊協議 (C3)",
       "description": "跨鏈通訊協議使用一中介微服務溝通兩者具備圖靈完備的區塊鏈，該微服務可以同時存取兩邊區塊鏈的資訊，並具備私鑰避免其處理資訊受到偽造。其將兩條區塊鏈之間的資料交換或資產交換條件轉換為兩條區塊鏈上可執行的程式語言，並設定交易生效取消的條件規範，當任一方區塊鏈觸發事件時將相關證據提交至另一方區塊鏈執行。",
       "subtitle": "跨鏈資產交換：",
       "description2": "使用跨鏈通訊協議與 Layer 2 Protocol 將其他區塊鏈上的資產移轉至 Boltchain 系統運作，藉此達成多元區塊鏈價值流通。",
-      "image": "/img/2019/08/boltchain_system_04-1.-1.png"
+      "image": "/img/technology/boltchain_system_04-1.-1.png"
     }
   },
   "faq": {

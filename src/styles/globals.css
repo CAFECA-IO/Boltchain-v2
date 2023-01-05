@@ -13,6 +13,8 @@ body {
 }
 body::-webkit-scrollbar {
   display: none;
+  -webkit-appearance: none;
+  width: 0;
 }
 
 a {

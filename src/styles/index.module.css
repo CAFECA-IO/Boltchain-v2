@@ -1,8 +1,8 @@
 .fullwidth_container {
+  width: 100vw;
   height: auto;
-  background: url("/img/homepage/shutterstock_697695823-1.jpg") 0% 0% / 100%
-    no-repeat;
-  background-size: auto auto !important;
+  background: url("/img/homepage/banner_bg.jpg") 0% 0% / 100% repeat;
+  background-size: auto auto;
 }
 .header_container {
   padding: 150px 15px;
@@ -42,17 +42,8 @@
   position: fixed;
   width: 100%;
 }
-@media (max-width: 576px) {
-  .bg_info {
-    padding-right: 35px;
-  }
-}
 
-.container_fluid,
-.container_lg,
-.container_md,
-.container_sm,
-.container_xl {
+.container_fluid {
   width: 100%;
   padding-right: 0px;
   padding-left: 0px;
@@ -66,9 +57,6 @@
   padding-right: 0px;
 }
 
-.vc_custom_heading {
-  font-family: "Roboto", "Arial", "sans-serif";
-}
 .header-bold-normal {
   font-weight: normal !important;
 }
@@ -81,85 +69,6 @@
   text-align: center;
 }
 
-.vc_custom_heading {
-  font-weight: 700;
-  opacity: 1;
-  -webkit-animation-delay: 0s;
-  -webkit-animation-duration: 3s;
-  -webkit-animation-iteration-count: 1;
-  -moz-animation-delay: 0s;
-  -moz-animation-duration: 3s;
-  -moz-animation-iteration-count: 1;
-  animation-delay: 0s;
-  animation-duration: 3s;
-  animation-iteration-count: 1;
-  font-size: 32px;
-  color: #000000;
-  text-align: center;
-  margin-bottom: 10px;
-}
-.animated {
-  -webkit-animation-duration: 1s;
-  animation-duration: 1s;
-  -webkit-animation-fill-mode: both;
-  animation-fill-mode: both;
-}
-.col-sm-2 {
-  width: 16.66666667%;
-}
-.table td,
-.table th {
-  border: 1px solid #ddd;
-  text-align: left;
-}
-.table-responsive {
-  border: 2px solid #b6b6b6;
-}
-.striped-row {
-  background-color: rgba(0, 0, 0, 0.05) !important;
-}
-.compareTable {
-  font-size: 15px;
-  font-family: "Roboto", "Arial", "sans-serif", sans-serif;
-}
-.compareTable thead tr:first-of-type th:last-child {
-  border-top: 3px solid #066eb7;
-}
-.compareTable tr th:last-child {
-  border: black solid;
-  border-width: 0 2px;
-  color: #066eb7;
-}
-.compareTable tr td:last-child {
-  border: black solid;
-  border-width: 0 2px;
-  color: #066eb7;
-}
-.compareTable tbody tr:last-of-type td:last-child {
-  border-bottom: 3px solid #066eb7;
-}
-.vc_sep_line {
-  height: 1px;
-  border-top: 1px solid #ebebeb;
-  border-color: #d6d6d6;
-  display: block;
-  position: relative;
-  top: 1px;
-  width: 100%;
-  margin-top: 60px;
-  margin-bottom: 40px;
-}
-.p {
-  font-size: 15px;
-}
-.c3-img {
-  margin-left: 30px;
-}
-@media (max-width: 768px) {
-  .c3-img {
-    margin-left: 0px;
-  }
-}
 .headerNavbarWhite {
   background-color: white !important;
 }
@@ -176,7 +85,13 @@
   width: 125px !important;
   height: 30px !important;
 }
-@media (max-width: 992px) {
+
+@media (max-width: 768px) {
+  .bg_info {
+    padding-right: 35px;
+  }
+}
+@media (min-width: 769px) and(max-width: 992px) {
   .headerNavbar {
     background-color: #1c2336 !important;
   }
@@ -185,25 +100,6 @@
     height: 30px !important;
   }
   .headerNavbarWhite .navlogo {
-    background-image: url("./../../public/img/2019/05/bolt_logo_5.png") !important;
+    background-image: url("./../../public/img/main/bolt_logo_5.png") !important;
   }
-  #nav-bar {
-    display: none;
-  }
-  .nav-single-item {
-    padding: 5px 0px 15px 5px;
-  }
-  .wpb_wrapper {
-    padding: 0px 10px;
-  }
-}
-.bolck1-title {
-  margin-top: 170px;
-  margin-bottom: 10px;
-}
-.th {
-  font-weight: normal;
-}
-.html {
-  scroll-behavior: smooth;
 }

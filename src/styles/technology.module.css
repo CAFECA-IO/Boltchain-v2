@@ -13,16 +13,21 @@
 
 .technology_table {
   margin: auto;
+  max-width: 90vw;
   margin-top: 40px;
-  width: 100%;
   border-collapse: collapse;
   color: #212529;
   border: 2px solid rgb(182, 182, 182);
+
+  display: block;
+  overflow-x: auto;
+  white-space: nowrap;
 }
 
 .technology_table th,
 .technology_table tr,
 .technology_table td {
+  width: 100%;
   border: 1px solid #dee2e6;
   font-size: 15px;
   font-family: Roboto, Arial, "sans-serif", sans-serif;
@@ -60,7 +65,6 @@
 }
 
 .card {
-  width: 90vw;
   display: flex !important;
   margin: auto;
   padding-top: 50px;
@@ -88,12 +92,20 @@
   font-size: 15px;
 }
 
-@media (max-width: 992px) {
-  .technology_table {
-    max-width: 90vw;
+@media (max-width: 768px) {
+  .imgbox {
+    max-width: 100%;
+    height: auto;
   }
-
   .card {
+    max-width: 90vw;
+    flex-direction: column;
+    align-content: center;
+  }
+}
+@media (min-width: 769px) and (max-width: 992px) {
+  .card {
+    max-width: 90vw;
     flex-direction: column;
     align-content: center;
   }
@@ -105,12 +117,10 @@
     margin: auto;
   }
 }
-
-@media (min-width: 992px) {
-  .technology_table {
-    max-width: 960px;
+@media (min-width: 993px) {
+  .card {
+    max-width: 90vw;
   }
-
   .card:nth-child(odd) {
     flex-direction: row;
   }

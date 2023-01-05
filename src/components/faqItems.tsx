@@ -14,7 +14,7 @@ function FAQItems(props: any) {
   return (
     <section className={myStyles.faq_block}>
       <div onClick={toggle} className={iconStyle}>
-        <h4>{props.que}</h4>
+        <p className={myStyles.anstext}>{props.que}</p>
         <div className={answerStyle}>
           <p>{props.ans}</p>
         </div>

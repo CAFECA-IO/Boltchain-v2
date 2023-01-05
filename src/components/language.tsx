@@ -11,26 +11,16 @@ const LanguageSwitch = () => {
   return (
     <div id={myStyles.lang_dropdown}>
       <div className={`${myStyles.navitem} ${myStyles.dropdown}`}>
-        <Link href="#" className={myStyles.navlink}>
-          {lang}
-        </Link>
+        <label className={myStyles.navlink}>{lang}</label>
 
         <ul className={myStyles.dropdownMenu}>
           <li>
-            <Link
-              className={myStyles.dropdownItem}
-              locale="tw"
-              href={{ pathname, query }}
-            >
+            <Link className={myStyles.dropdownItem} locale="tw" href={router}>
               繁中
             </Link>
           </li>
           <li>
-            <Link
-              className={myStyles.dropdownItem}
-              locale="en"
-              href={{ pathname, query }}
-            >
+            <Link className={myStyles.dropdownItem} locale="en" href={router}>
               English
             </Link>
           </li>
